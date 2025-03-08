@@ -1,0 +1,16 @@
+{"time":"2025-03-08T18:23:08.28377+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250308_182308-cepxbito/logs/debug-core.log"}
+{"time":"2025-03-08T18:23:08.397303+05:30","level":"INFO","msg":"created new stream","id":"cepxbito"}
+{"time":"2025-03-08T18:23:08.397369+05:30","level":"INFO","msg":"stream: started","id":"cepxbito"}
+{"time":"2025-03-08T18:23:08.397385+05:30","level":"INFO","msg":"handler: started","stream_id":"cepxbito"}
+{"time":"2025-03-08T18:23:08.397402+05:30","level":"INFO","msg":"sender: started","stream_id":"cepxbito"}
+{"time":"2025-03-08T18:23:08.397478+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"cepxbito"}
+{"time":"2025-03-08T18:23:08.711345+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T18:23:09.023856+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T18:23:09.024696+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T18:23:10.033953+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.206315625}],"total_operations":1}}
+{"time":"2025-03-08T18:23:10.887639+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T18:23:12.356632+05:30","level":"INFO","msg":"stream: closing","id":"cepxbito"}
+{"time":"2025-03-08T18:23:12.356702+05:30","level":"INFO","msg":"handler: closed","stream_id":"cepxbito"}
+{"time":"2025-03-08T18:23:12.356744+05:30","level":"INFO","msg":"sender: closed","stream_id":"cepxbito"}
+{"time":"2025-03-08T18:23:12.356727+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"cepxbito"}
+{"time":"2025-03-08T18:23:12.357011+05:30","level":"INFO","msg":"stream: closed","id":"cepxbito"}

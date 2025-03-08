@@ -1,0 +1,22 @@
+{"time":"2025-03-08T16:24:11.364356+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250308_162411-q8fuz1qs/logs/debug-core.log"}
+{"time":"2025-03-08T16:24:11.680017+05:30","level":"INFO","msg":"created new stream","id":"q8fuz1qs"}
+{"time":"2025-03-08T16:24:11.68009+05:30","level":"INFO","msg":"stream: started","id":"q8fuz1qs"}
+{"time":"2025-03-08T16:24:11.680114+05:30","level":"INFO","msg":"handler: started","stream_id":"q8fuz1qs"}
+{"time":"2025-03-08T16:24:11.680157+05:30","level":"INFO","msg":"sender: started","stream_id":"q8fuz1qs"}
+{"time":"2025-03-08T16:24:11.680144+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"q8fuz1qs"}
+{"time":"2025-03-08T16:24:12.145109+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T16:24:12.483016+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-08T16:25:25.580345+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-08T16:25:25.959749+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-08T16:25:41.978173+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-08T16:25:42.326196+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-08T16:26:04.69333+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-08T16:26:04.696153+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T16:26:04.69705+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T16:26:05.703931+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.191598583},{"desc":"uploading wandb-summary.json","runtime_seconds":0.191560625,"progress":"24B/24B"}],"total_operations":2}}
+{"time":"2025-03-08T16:26:06.317358+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T16:26:07.754094+05:30","level":"INFO","msg":"stream: closing","id":"q8fuz1qs"}
+{"time":"2025-03-08T16:26:07.754216+05:30","level":"INFO","msg":"handler: closed","stream_id":"q8fuz1qs"}
+{"time":"2025-03-08T16:26:07.754253+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"q8fuz1qs"}
+{"time":"2025-03-08T16:26:07.754277+05:30","level":"INFO","msg":"sender: closed","stream_id":"q8fuz1qs"}
+{"time":"2025-03-08T16:26:07.7548+05:30","level":"INFO","msg":"stream: closed","id":"q8fuz1qs"}

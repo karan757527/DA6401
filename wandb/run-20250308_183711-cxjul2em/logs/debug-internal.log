@@ -1,0 +1,16 @@
+{"time":"2025-03-08T18:37:11.531013+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250308_183711-cxjul2em/logs/debug-core.log"}
+{"time":"2025-03-08T18:37:11.648718+05:30","level":"INFO","msg":"created new stream","id":"cxjul2em"}
+{"time":"2025-03-08T18:37:11.648782+05:30","level":"INFO","msg":"stream: started","id":"cxjul2em"}
+{"time":"2025-03-08T18:37:11.648821+05:30","level":"INFO","msg":"sender: started","stream_id":"cxjul2em"}
+{"time":"2025-03-08T18:37:11.648805+05:30","level":"INFO","msg":"handler: started","stream_id":"cxjul2em"}
+{"time":"2025-03-08T18:37:11.64892+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"cxjul2em"}
+{"time":"2025-03-08T18:37:12.024211+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T18:37:12.620471+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T18:37:12.621907+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T18:37:13.633275+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.324972875}],"total_operations":1}}
+{"time":"2025-03-08T18:37:14.684474+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T18:37:16.116851+05:30","level":"INFO","msg":"stream: closing","id":"cxjul2em"}
+{"time":"2025-03-08T18:37:16.116928+05:30","level":"INFO","msg":"handler: closed","stream_id":"cxjul2em"}
+{"time":"2025-03-08T18:37:16.116957+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"cxjul2em"}
+{"time":"2025-03-08T18:37:16.117193+05:30","level":"INFO","msg":"sender: closed","stream_id":"cxjul2em"}
+{"time":"2025-03-08T18:37:16.117278+05:30","level":"INFO","msg":"stream: closed","id":"cxjul2em"}
