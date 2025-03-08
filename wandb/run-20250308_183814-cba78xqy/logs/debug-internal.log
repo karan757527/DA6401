@@ -9,3 +9,9 @@
 {"time":"2025-03-08T18:38:48.746446+05:30","level":"INFO","msg":"Stopped system monitor"}
 {"time":"2025-03-08T18:38:49.796393+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.288891209,"progress":"1.1KB/1.1KB"}],"total_operations":1}}
 {"time":"2025-03-08T18:38:50.126746+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T19:21:58.211858+05:30","level":"INFO","msg":"stream: closing","id":"cba78xqy"}
+{"time":"2025-03-08T19:21:58.213318+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"cba78xqy"}
+{"time":"2025-03-08T19:21:58.213647+05:30","level":"INFO","msg":"handler: closed","stream_id":"cba78xqy"}
+{"time":"2025-03-08T19:21:58.214106+05:30","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2025-03-08T19:21:58.214421+05:30","level":"INFO","msg":"sender: closed","stream_id":"cba78xqy"}
+{"time":"2025-03-08T19:21:58.214438+05:30","level":"INFO","msg":"stream: closed","id":"cba78xqy"}

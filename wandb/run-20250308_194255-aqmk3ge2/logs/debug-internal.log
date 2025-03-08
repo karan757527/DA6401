@@ -1,0 +1,16 @@
+{"time":"2025-03-08T19:42:55.880607+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250308_194255-aqmk3ge2/logs/debug-core.log"}
+{"time":"2025-03-08T19:42:55.993904+05:30","level":"INFO","msg":"created new stream","id":"aqmk3ge2"}
+{"time":"2025-03-08T19:42:55.993948+05:30","level":"INFO","msg":"stream: started","id":"aqmk3ge2"}
+{"time":"2025-03-08T19:42:55.993977+05:30","level":"INFO","msg":"handler: started","stream_id":"aqmk3ge2"}
+{"time":"2025-03-08T19:42:55.994069+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"aqmk3ge2"}
+{"time":"2025-03-08T19:42:55.994+05:30","level":"INFO","msg":"sender: started","stream_id":"aqmk3ge2"}
+{"time":"2025-03-08T19:42:56.320293+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T19:44:13.566806+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T19:44:13.568081+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T19:44:14.58772+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.360504541,"progress":"190B/190B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.360456292,"progress":"257B/257B"},{"desc":"uploading config.yaml","runtime_seconds":0.04664225,"progress":"1.1KB/1.1KB"}],"total_operations":3}}
+{"time":"2025-03-08T19:44:14.918241+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T19:44:16.328622+05:30","level":"INFO","msg":"stream: closing","id":"aqmk3ge2"}
+{"time":"2025-03-08T19:44:16.328737+05:30","level":"INFO","msg":"handler: closed","stream_id":"aqmk3ge2"}
+{"time":"2025-03-08T19:44:16.328767+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"aqmk3ge2"}
+{"time":"2025-03-08T19:44:16.329074+05:30","level":"INFO","msg":"sender: closed","stream_id":"aqmk3ge2"}
+{"time":"2025-03-08T19:44:16.329133+05:30","level":"INFO","msg":"stream: closed","id":"aqmk3ge2"}

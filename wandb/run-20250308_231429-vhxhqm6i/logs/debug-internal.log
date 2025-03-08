@@ -1,0 +1,20 @@
+{"time":"2025-03-08T23:14:29.427921+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250308_231429-vhxhqm6i/logs/debug-core.log"}
+{"time":"2025-03-08T23:14:29.543778+05:30","level":"INFO","msg":"created new stream","id":"vhxhqm6i"}
+{"time":"2025-03-08T23:14:29.543821+05:30","level":"INFO","msg":"stream: started","id":"vhxhqm6i"}
+{"time":"2025-03-08T23:14:29.543842+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vhxhqm6i"}
+{"time":"2025-03-08T23:14:29.543873+05:30","level":"INFO","msg":"handler: started","stream_id":"vhxhqm6i"}
+{"time":"2025-03-08T23:14:29.543891+05:30","level":"INFO","msg":"sender: started","stream_id":"vhxhqm6i"}
+{"time":"2025-03-08T23:14:29.9165+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T23:14:30.595686+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-08T23:14:43.593476+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-08T23:14:43.597065+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-08T23:14:43.92283+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-08T23:14:44.231922+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T23:14:44.232258+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T23:14:45.238773+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.373743916,"progress":"936B/936B"}],"total_operations":1}}
+{"time":"2025-03-08T23:14:45.294856+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T23:14:46.768135+05:30","level":"INFO","msg":"stream: closing","id":"vhxhqm6i"}
+{"time":"2025-03-08T23:14:46.768469+05:30","level":"INFO","msg":"handler: closed","stream_id":"vhxhqm6i"}
+{"time":"2025-03-08T23:14:46.768537+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vhxhqm6i"}
+{"time":"2025-03-08T23:14:46.768932+05:30","level":"INFO","msg":"sender: closed","stream_id":"vhxhqm6i"}
+{"time":"2025-03-08T23:14:46.7691+05:30","level":"INFO","msg":"stream: closed","id":"vhxhqm6i"}

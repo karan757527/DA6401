@@ -1,0 +1,16 @@
+{"time":"2025-03-08T20:08:33.281001+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250308_200833-kmst1ktx/logs/debug-core.log"}
+{"time":"2025-03-08T20:08:33.395568+05:30","level":"INFO","msg":"created new stream","id":"kmst1ktx"}
+{"time":"2025-03-08T20:08:33.395616+05:30","level":"INFO","msg":"stream: started","id":"kmst1ktx"}
+{"time":"2025-03-08T20:08:33.395642+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"kmst1ktx"}
+{"time":"2025-03-08T20:08:33.395682+05:30","level":"INFO","msg":"sender: started","stream_id":"kmst1ktx"}
+{"time":"2025-03-08T20:08:33.395634+05:30","level":"INFO","msg":"handler: started","stream_id":"kmst1ktx"}
+{"time":"2025-03-08T20:08:33.801022+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T20:08:34.321446+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T20:08:34.322274+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T20:08:35.335156+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.176684542}],"total_operations":1}}
+{"time":"2025-03-08T20:08:36.153201+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T20:08:37.480528+05:30","level":"INFO","msg":"stream: closing","id":"kmst1ktx"}
+{"time":"2025-03-08T20:08:37.4806+05:30","level":"INFO","msg":"handler: closed","stream_id":"kmst1ktx"}
+{"time":"2025-03-08T20:08:37.480637+05:30","level":"INFO","msg":"sender: closed","stream_id":"kmst1ktx"}
+{"time":"2025-03-08T20:08:37.480628+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"kmst1ktx"}
+{"time":"2025-03-08T20:08:37.480927+05:30","level":"INFO","msg":"stream: closed","id":"kmst1ktx"}

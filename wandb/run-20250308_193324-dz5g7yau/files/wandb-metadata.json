@@ -1,0 +1,42 @@
+{
+  "os":  "macOS-15.3-arm64-arm-64bit",
+  "python":  "CPython 3.11.7",
+  "startedAt":  "2025-03-08T14:03:24.690557Z",
+  "program":  "Sem 2/DL/Assignment 1/assignment.ipynb",
+  "git":  {
+    "remote":  "https://github.com/karan757527/DA6401.git",
+    "commit":  "1a0c5fdfb00ac1769bceee88b9f3f088e285071e"
+  },
+  "email":  "cs24m021@smail.iitm.ac.in",
+  "root":  "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1",
+  "host":  "Karans-Laptop.local",
+  "executable":  "/opt/anaconda3/bin/python",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "132507779072"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "245107195904",
+      "used":  "132507779072"
+    }
+  },
+  "memory":  {
+    "total":  "8589934592"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  },
+  "apple":  {
+    "name":  "Apple M2",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  8,
+    "memoryGb":  8,
+    "swapTotalBytes":  "3221225472",
+    "ramTotalBytes":  "8589934592"
+  }
+}

@@ -1,0 +1,16 @@
+{"time":"2025-03-08T23:41:19.895807+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250308_234119-w5x70i14/logs/debug-core.log"}
+{"time":"2025-03-08T23:41:20.007356+05:30","level":"INFO","msg":"created new stream","id":"w5x70i14"}
+{"time":"2025-03-08T23:41:20.007405+05:30","level":"INFO","msg":"stream: started","id":"w5x70i14"}
+{"time":"2025-03-08T23:41:20.007434+05:30","level":"INFO","msg":"handler: started","stream_id":"w5x70i14"}
+{"time":"2025-03-08T23:41:20.007493+05:30","level":"INFO","msg":"sender: started","stream_id":"w5x70i14"}
+{"time":"2025-03-08T23:41:20.007528+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"w5x70i14"}
+{"time":"2025-03-08T23:41:20.704215+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T23:41:29.622193+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T23:41:29.629667+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T23:41:30.642005+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.622985667,"progress":"55B/55B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.622980208,"progress":"219B/219B"},{"desc":"uploading config.yaml","runtime_seconds":0.202459667,"progress":"922B/922B"}],"total_operations":3}}
+{"time":"2025-03-08T23:41:31.348356+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T23:41:32.775924+05:30","level":"INFO","msg":"stream: closing","id":"w5x70i14"}
+{"time":"2025-03-08T23:41:32.776006+05:30","level":"INFO","msg":"handler: closed","stream_id":"w5x70i14"}
+{"time":"2025-03-08T23:41:32.776037+05:30","level":"INFO","msg":"sender: closed","stream_id":"w5x70i14"}
+{"time":"2025-03-08T23:41:32.776026+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"w5x70i14"}
+{"time":"2025-03-08T23:41:32.77624+05:30","level":"INFO","msg":"stream: closed","id":"w5x70i14"}

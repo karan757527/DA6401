@@ -1,0 +1,6 @@
+/var/folders/_j/cmll7785497_g41srw91rbj00000gn/T/ipykernel_3130/757035950.py:60: RuntimeWarning: overflow encountered in square
+  self.model.v_weights[layer] = self.beta2 * self.model.v_weights[layer] + (1 - self.beta2) * np.square(self.model.grad_weights[layer])
+/var/folders/_j/cmll7785497_g41srw91rbj00000gn/T/ipykernel_3130/757035950.py:62: RuntimeWarning: overflow encountered in divide
+  self.model.weights[layer] -= self.learning_rate * (self.model.grad_weights[layer] + self.decay * self.model.weights[layer]) / (np.sqrt(self.model.v_weights[layer]) + self.epsilon)
+Training-loss : nan, Training-accuracy:10.022222222222222%, Validation-loss : nan, Validation-accuracy:9.8%
+nan 9.8

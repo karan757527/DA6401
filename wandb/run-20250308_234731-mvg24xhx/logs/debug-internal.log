@@ -1,0 +1,16 @@
+{"time":"2025-03-08T23:47:31.359633+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250308_234731-mvg24xhx/logs/debug-core.log"}
+{"time":"2025-03-08T23:47:31.472695+05:30","level":"INFO","msg":"created new stream","id":"mvg24xhx"}
+{"time":"2025-03-08T23:47:31.472733+05:30","level":"INFO","msg":"stream: started","id":"mvg24xhx"}
+{"time":"2025-03-08T23:47:31.47275+05:30","level":"INFO","msg":"handler: started","stream_id":"mvg24xhx"}
+{"time":"2025-03-08T23:47:31.472759+05:30","level":"INFO","msg":"sender: started","stream_id":"mvg24xhx"}
+{"time":"2025-03-08T23:47:31.472782+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mvg24xhx"}
+{"time":"2025-03-08T23:47:31.903048+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T23:47:32.549202+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T23:47:32.549652+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T23:47:33.555324+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/Confusion_Matrix_0_8189349f225f32b97886.png","runtime_seconds":0.322996708,"progress":"45.8KB/45.8KB"},{"desc":"uploading output.log","runtime_seconds":0.322951375,"progress":"529B/529B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3229325,"progress":"328B/328B"}],"total_operations":3}}
+{"time":"2025-03-08T23:47:34.090174+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T23:47:35.470192+05:30","level":"INFO","msg":"stream: closing","id":"mvg24xhx"}
+{"time":"2025-03-08T23:47:35.470242+05:30","level":"INFO","msg":"handler: closed","stream_id":"mvg24xhx"}
+{"time":"2025-03-08T23:47:35.470268+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"mvg24xhx"}
+{"time":"2025-03-08T23:47:35.470283+05:30","level":"INFO","msg":"sender: closed","stream_id":"mvg24xhx"}
+{"time":"2025-03-08T23:47:35.47048+05:30","level":"INFO","msg":"stream: closed","id":"mvg24xhx"}

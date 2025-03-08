@@ -1,0 +1,65 @@
+_wandb:
+    value:
+        cli_version: 0.19.7
+        m: []
+        python_version: 3.11.7
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+                - 55
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+                - 55
+            "3":
+                - 2
+                - 14
+                - 17
+                - 23
+                - 55
+            "4": 3.11.7
+            "5": 0.19.7
+            "8":
+                - 1
+                - 5
+            "12": 0.19.7
+            "13": darwin-arm64
+activation:
+    value: relu
+batch_size:
+    value: 16
+beta:
+    value: 0.5
+beta1:
+    value: 0.999
+beta2:
+    value: 9
+dataset:
+    value: fashion_mnist
+epochs:
+    value: 10
+epsilon:
+    value: 1e-06
+hidden_layer_sizes:
+    value: 32
+hidden_layers:
+    value: 4
+initialization:
+    value: Xavier
+learning_rate:
+    value: 0.0001
+loss_function:
+    value: mean_squared_error
+momentum:
+    value: 0.9
+optimizer:
+    value: sgd
+weight_decay:
+    value: 0
+weight_init:
+    value: xavier

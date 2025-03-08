@@ -1,0 +1,16 @@
+{"time":"2025-03-08T19:35:50.504191+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250308_193550-dty23dpk/logs/debug-core.log"}
+{"time":"2025-03-08T19:35:50.618489+05:30","level":"INFO","msg":"created new stream","id":"dty23dpk"}
+{"time":"2025-03-08T19:35:50.618546+05:30","level":"INFO","msg":"stream: started","id":"dty23dpk"}
+{"time":"2025-03-08T19:35:50.618566+05:30","level":"INFO","msg":"sender: started","stream_id":"dty23dpk"}
+{"time":"2025-03-08T19:35:50.618568+05:30","level":"INFO","msg":"handler: started","stream_id":"dty23dpk"}
+{"time":"2025-03-08T19:35:50.618605+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dty23dpk"}
+{"time":"2025-03-08T19:35:51.516709+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T19:35:51.886807+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T19:35:51.888033+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T19:35:52.899999+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.25111375}],"total_operations":1}}
+{"time":"2025-03-08T19:35:53.870332+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T19:35:55.298385+05:30","level":"INFO","msg":"stream: closing","id":"dty23dpk"}
+{"time":"2025-03-08T19:35:55.298493+05:30","level":"INFO","msg":"handler: closed","stream_id":"dty23dpk"}
+{"time":"2025-03-08T19:35:55.298541+05:30","level":"INFO","msg":"sender: closed","stream_id":"dty23dpk"}
+{"time":"2025-03-08T19:35:55.298527+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dty23dpk"}
+{"time":"2025-03-08T19:35:55.298845+05:30","level":"INFO","msg":"stream: closed","id":"dty23dpk"}

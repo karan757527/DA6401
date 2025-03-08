@@ -1,0 +1,25 @@
+Unique values in y_true: [0 1 2 3 4 5 6 7 8 9]
+Unique values in class_pred: [0 1 2 3 4 5 6 7 8 9]
+             T-shirt/top  Trouser  Pullover  Dress  Coat  Sandal  Shirt  \
+T-shirt/top          760        2        23     69    15       1    112
+Trouser               10      930        11     34    11       0      3
+Pullover              23        1       670     14   157       0    117
+Dress                 43       16        11    822    43       1     57
+Coat                   1        4       149     42   680       0    114
+Sandal                 0        0         0      1     1     854      0
+Shirt                179        5       141     42   132       1    463
+Sneaker                0        0         0      0     0      37      1
+Bag                    1        1        13      7     3       9     26
+Ankle boot             0        0         0      0     0       8      1
+
+             Sneaker  Bag  Ankle boot
+T-shirt/top        0   18           0
+Trouser            0    1           0
+Pullover           0   17           1
+Dress              0    6           1
+Coat               0   10           0
+Sandal            83   11          50
+Shirt              0   37           0
+Sneaker          875    2          85
+Bag                5  931           4
+Ankle boot        46    5         940
