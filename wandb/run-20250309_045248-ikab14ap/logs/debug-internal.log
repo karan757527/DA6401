@@ -1,0 +1,16 @@
+{"time":"2025-03-09T04:52:48.492835+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_045248-ikab14ap/logs/debug-core.log"}
+{"time":"2025-03-09T04:52:48.606729+05:30","level":"INFO","msg":"created new stream","id":"ikab14ap"}
+{"time":"2025-03-09T04:52:48.606781+05:30","level":"INFO","msg":"stream: started","id":"ikab14ap"}
+{"time":"2025-03-09T04:52:48.606804+05:30","level":"INFO","msg":"handler: started","stream_id":"ikab14ap"}
+{"time":"2025-03-09T04:52:48.606809+05:30","level":"INFO","msg":"sender: started","stream_id":"ikab14ap"}
+{"time":"2025-03-09T04:52:48.606871+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ikab14ap"}
+{"time":"2025-03-09T04:52:48.987987+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T04:56:49.613149+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T04:56:49.614502+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T04:56:50.633986+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.181715083,"progress":"861B/861B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.181681,"progress":"248B/248B"}],"total_operations":2}}
+{"time":"2025-03-09T04:56:51.221964+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T04:56:52.598544+05:30","level":"INFO","msg":"stream: closing","id":"ikab14ap"}
+{"time":"2025-03-09T04:56:52.598616+05:30","level":"INFO","msg":"handler: closed","stream_id":"ikab14ap"}
+{"time":"2025-03-09T04:56:52.598654+05:30","level":"INFO","msg":"sender: closed","stream_id":"ikab14ap"}
+{"time":"2025-03-09T04:56:52.598639+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ikab14ap"}
+{"time":"2025-03-09T04:56:52.59914+05:30","level":"INFO","msg":"stream: closed","id":"ikab14ap"}

@@ -1,0 +1,17 @@
+{"time":"2025-03-09T02:15:50.833754+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_021550-s6xzkcj3/logs/debug-core.log"}
+{"time":"2025-03-09T02:15:50.948344+05:30","level":"INFO","msg":"created new stream","id":"s6xzkcj3"}
+{"time":"2025-03-09T02:15:50.948397+05:30","level":"INFO","msg":"stream: started","id":"s6xzkcj3"}
+{"time":"2025-03-09T02:15:50.948419+05:30","level":"INFO","msg":"sender: started","stream_id":"s6xzkcj3"}
+{"time":"2025-03-09T02:15:50.94841+05:30","level":"INFO","msg":"handler: started","stream_id":"s6xzkcj3"}
+{"time":"2025-03-09T02:15:50.948454+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"s6xzkcj3"}
+{"time":"2025-03-09T02:15:51.33082+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T02:31:21.67887+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.113:51837->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-03-09T02:31:40.3499+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T02:31:40.356731+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T02:31:41.368217+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.372418167,"progress":"859B/859B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.372368083,"progress":"244B/244B"},{"desc":"uploading config.yaml","runtime_seconds":0.069399583,"progress":"922B/922B"}],"total_operations":3}}
+{"time":"2025-03-09T02:31:42.480142+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T02:31:43.851057+05:30","level":"INFO","msg":"stream: closing","id":"s6xzkcj3"}
+{"time":"2025-03-09T02:31:43.851209+05:30","level":"INFO","msg":"handler: closed","stream_id":"s6xzkcj3"}
+{"time":"2025-03-09T02:31:43.851251+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"s6xzkcj3"}
+{"time":"2025-03-09T02:31:43.851274+05:30","level":"INFO","msg":"sender: closed","stream_id":"s6xzkcj3"}
+{"time":"2025-03-09T02:31:43.851672+05:30","level":"INFO","msg":"stream: closed","id":"s6xzkcj3"}

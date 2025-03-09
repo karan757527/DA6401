@@ -1,0 +1,12 @@
+Epoch 1: Train Loss=0.4518, Train Acc=15.86%, Val Loss=0.4541, Val Acc=15.87%
+Epoch 2: Train Loss=0.4226, Train Acc=24.23%, Val Loss=0.4241, Val Acc=24.67%
+Epoch 3: Train Loss=0.3976, Train Acc=29.82%, Val Loss=0.4009, Val Acc=29.58%
+Epoch 4: Train Loss=0.3813, Train Acc=34.30%, Val Loss=0.3814, Val Acc=34.67%
+Epoch 5: Train Loss=0.3674, Train Acc=36.31%, Val Loss=0.3681, Val Acc=36.53%
+Epoch 6: Train Loss=0.3500, Train Acc=38.26%, Val Loss=0.3462, Val Acc=38.52%
+Epoch 7: Train Loss=0.3361, Train Acc=42.59%, Val Loss=0.3417, Val Acc=41.43%
+Epoch 8: Train Loss=0.3134, Train Acc=49.49%, Val Loss=0.3182, Val Acc=48.93%
+Epoch 9: Train Loss=0.2967, Train Acc=52.48%, Val Loss=0.2992, Val Acc=52.08%
+Epoch 10: Train Loss=0.2869, Train Acc=53.80%, Val Loss=0.2933, Val Acc=52.98%
+Test-loss : 0.2891426830451887, Test-accuracy:53.39%
+0.2891426830451887 53.39

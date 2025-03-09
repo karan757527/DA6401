@@ -1,0 +1,16 @@
+{"time":"2025-03-09T08:11:57.075653+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_081157-viinia47/logs/debug-core.log"}
+{"time":"2025-03-09T08:11:57.191093+05:30","level":"INFO","msg":"created new stream","id":"viinia47"}
+{"time":"2025-03-09T08:11:57.191151+05:30","level":"INFO","msg":"stream: started","id":"viinia47"}
+{"time":"2025-03-09T08:11:57.191179+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"viinia47"}
+{"time":"2025-03-09T08:11:57.191181+05:30","level":"INFO","msg":"handler: started","stream_id":"viinia47"}
+{"time":"2025-03-09T08:11:57.191265+05:30","level":"INFO","msg":"sender: started","stream_id":"viinia47"}
+{"time":"2025-03-09T08:11:57.516573+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T08:12:51.106571+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T08:12:51.107287+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T08:12:52.112687+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.681552042,"progress":"861B/861B"},{"desc":"uploading config.yaml","runtime_seconds":0.272028958,"progress":"915B/915B"}],"total_operations":2}}
+{"time":"2025-03-09T08:12:52.764082+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T08:12:54.195836+05:30","level":"INFO","msg":"stream: closing","id":"viinia47"}
+{"time":"2025-03-09T08:12:54.195907+05:30","level":"INFO","msg":"handler: closed","stream_id":"viinia47"}
+{"time":"2025-03-09T08:12:54.195933+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"viinia47"}
+{"time":"2025-03-09T08:12:54.195938+05:30","level":"INFO","msg":"sender: closed","stream_id":"viinia47"}
+{"time":"2025-03-09T08:12:54.196225+05:30","level":"INFO","msg":"stream: closed","id":"viinia47"}

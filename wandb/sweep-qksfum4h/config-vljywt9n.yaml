@@ -1,0 +1,22 @@
+wandb_version: 1
+
+activation:
+  value: ReLU
+batch_size:
+  value: 16
+dataset:
+  value: fashion_mnist
+epochs:
+  value: 10
+hidden_layer_sizes:
+  value: 32
+hidden_layers:
+  value: 4
+initialization:
+  value: random
+learning_rate:
+  value: 0.0001
+optimizer:
+  value: nadam
+weight_decay:
+  value: 0

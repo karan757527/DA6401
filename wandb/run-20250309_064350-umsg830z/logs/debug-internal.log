@@ -1,0 +1,16 @@
+{"time":"2025-03-09T06:43:50.816844+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_064350-umsg830z/logs/debug-core.log"}
+{"time":"2025-03-09T06:43:50.931067+05:30","level":"INFO","msg":"created new stream","id":"umsg830z"}
+{"time":"2025-03-09T06:43:50.931114+05:30","level":"INFO","msg":"stream: started","id":"umsg830z"}
+{"time":"2025-03-09T06:43:50.93113+05:30","level":"INFO","msg":"sender: started","stream_id":"umsg830z"}
+{"time":"2025-03-09T06:43:50.931137+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"umsg830z"}
+{"time":"2025-03-09T06:43:50.931129+05:30","level":"INFO","msg":"handler: started","stream_id":"umsg830z"}
+{"time":"2025-03-09T06:43:51.25619+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T06:43:52.0368+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T06:43:52.037273+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T06:43:53.050451+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/Confusion_Matrix_0_7dc500f00f575f1e7eda.png","runtime_seconds":0.159313916,"progress":"45.4KB/45.4KB"},{"desc":"uploading output.log","runtime_seconds":0.159305333,"progress":"529B/529B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.159296541,"progress":"329B/329B"}],"total_operations":3}}
+{"time":"2025-03-09T06:43:53.705864+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T06:43:55.139992+05:30","level":"INFO","msg":"stream: closing","id":"umsg830z"}
+{"time":"2025-03-09T06:43:55.140046+05:30","level":"INFO","msg":"handler: closed","stream_id":"umsg830z"}
+{"time":"2025-03-09T06:43:55.140084+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"umsg830z"}
+{"time":"2025-03-09T06:43:55.140263+05:30","level":"INFO","msg":"sender: closed","stream_id":"umsg830z"}
+{"time":"2025-03-09T06:43:55.140349+05:30","level":"INFO","msg":"stream: closed","id":"umsg830z"}

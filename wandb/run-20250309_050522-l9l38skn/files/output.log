@@ -1,0 +1,9 @@
+/var/folders/_j/cmll7785497_g41srw91rbj00000gn/T/ipykernel_9063/91531650.py:22: RuntimeWarning: invalid value encountered in subtract
+  exp_x = np.exp(x - np.max(x, axis=1, keepdims=True))
+Epoch 1: Train Loss=nan, Train Acc=10.02%, Val Loss=nan, Val Acc=9.80%
+Epoch 2: Train Loss=nan, Train Acc=10.02%, Val Loss=nan, Val Acc=9.80%
+Epoch 3: Train Loss=nan, Train Acc=10.02%, Val Loss=nan, Val Acc=9.80%
+Epoch 4: Train Loss=nan, Train Acc=10.02%, Val Loss=nan, Val Acc=9.80%
+Epoch 5: Train Loss=nan, Train Acc=10.02%, Val Loss=nan, Val Acc=9.80%
+Test-loss : nan, Test-accuracy:10.0%
+nan 10.0

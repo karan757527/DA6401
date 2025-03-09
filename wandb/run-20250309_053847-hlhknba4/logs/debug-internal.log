@@ -1,0 +1,16 @@
+{"time":"2025-03-09T05:38:47.175671+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_053847-hlhknba4/logs/debug-core.log"}
+{"time":"2025-03-09T05:38:47.290408+05:30","level":"INFO","msg":"created new stream","id":"hlhknba4"}
+{"time":"2025-03-09T05:38:47.290463+05:30","level":"INFO","msg":"stream: started","id":"hlhknba4"}
+{"time":"2025-03-09T05:38:47.290473+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hlhknba4"}
+{"time":"2025-03-09T05:38:47.290496+05:30","level":"INFO","msg":"sender: started","stream_id":"hlhknba4"}
+{"time":"2025-03-09T05:38:47.290467+05:30","level":"INFO","msg":"handler: started","stream_id":"hlhknba4"}
+{"time":"2025-03-09T05:38:47.672865+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T05:39:51.787936+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T05:39:51.788734+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T05:39:52.798042+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.405916333,"progress":"859B/859B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.405882708,"progress":"248B/248B"},{"desc":"uploading config.yaml","runtime_seconds":0.001829583,"progress":"923B/923B"}],"total_operations":3}}
+{"time":"2025-03-09T05:39:53.22624+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T05:39:54.638411+05:30","level":"INFO","msg":"stream: closing","id":"hlhknba4"}
+{"time":"2025-03-09T05:39:54.638509+05:30","level":"INFO","msg":"handler: closed","stream_id":"hlhknba4"}
+{"time":"2025-03-09T05:39:54.638559+05:30","level":"INFO","msg":"sender: closed","stream_id":"hlhknba4"}
+{"time":"2025-03-09T05:39:54.638538+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hlhknba4"}
+{"time":"2025-03-09T05:39:54.63928+05:30","level":"INFO","msg":"stream: closed","id":"hlhknba4"}

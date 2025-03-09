@@ -1,0 +1,16 @@
+{"time":"2025-03-09T09:07:56.719087+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_090756-laquahy8/logs/debug-core.log"}
+{"time":"2025-03-09T09:07:56.833337+05:30","level":"INFO","msg":"created new stream","id":"laquahy8"}
+{"time":"2025-03-09T09:07:56.833394+05:30","level":"INFO","msg":"stream: started","id":"laquahy8"}
+{"time":"2025-03-09T09:07:56.833405+05:30","level":"INFO","msg":"handler: started","stream_id":"laquahy8"}
+{"time":"2025-03-09T09:07:56.833427+05:30","level":"INFO","msg":"sender: started","stream_id":"laquahy8"}
+{"time":"2025-03-09T09:07:56.833444+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"laquahy8"}
+{"time":"2025-03-09T09:07:57.419456+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T09:09:54.318158+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T09:09:54.318983+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T09:09:55.334536+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.363752792,"progress":"859B/859B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.363744875,"progress":"248B/248B"}],"total_operations":2}}
+{"time":"2025-03-09T09:09:56.504109+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T09:09:57.943112+05:30","level":"INFO","msg":"stream: closing","id":"laquahy8"}
+{"time":"2025-03-09T09:09:57.94318+05:30","level":"INFO","msg":"handler: closed","stream_id":"laquahy8"}
+{"time":"2025-03-09T09:09:57.943216+05:30","level":"INFO","msg":"sender: closed","stream_id":"laquahy8"}
+{"time":"2025-03-09T09:09:57.943207+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"laquahy8"}
+{"time":"2025-03-09T09:09:57.943447+05:30","level":"INFO","msg":"stream: closed","id":"laquahy8"}

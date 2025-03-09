@@ -1,0 +1,37 @@
+2025-03-09 03:17:02,730 INFO    Thread-225 (_run_job):9063 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-03-09 03:17:02,730 INFO    Thread-225 (_run_job):9063 [wandb_setup.py:_flush():67] Configure stats pid to 9063
+2025-03-09 03:17:02,730 INFO    Thread-225 (_run_job):9063 [wandb_setup.py:_flush():67] Loading settings from /Users/karanagrawal/.config/wandb/settings
+2025-03-09 03:17:02,731 INFO    Thread-225 (_run_job):9063 [wandb_setup.py:_flush():67] Loading settings from /Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/settings
+2025-03-09 03:17:02,731 INFO    Thread-225 (_run_job):9063 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 03:17:02,731 INFO    Thread-225 (_run_job):9063 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_031702-vljywt9n/logs/debug.log
+2025-03-09 03:17:02,731 INFO    Thread-225 (_run_job):9063 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_031702-vljywt9n/logs/debug-internal.log
+2025-03-09 03:17:02,731 INFO    Thread-225 (_run_job):9063 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x169800e90>
+2025-03-09 03:17:02,731 INFO    Thread-225 (_run_job):9063 [wandb_init.py:init():761] calling init triggers
+2025-03-09 03:17:02,731 INFO    Thread-225 (_run_job):9063 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'ReLU', 'batch_size': 16, 'dataset': 'fashion_mnist', 'epochs': 10, 'hidden_layer_sizes': 32, 'hidden_layers': 4, 'initialization': 'random', 'learning_rate': 0.0001, 'optimizer': 'nadam', 'weight_decay': 0}
+config: {'_wandb': {}}
+2025-03-09 03:17:02,731 INFO    Thread-225 (_run_job):9063 [wandb_init.py:init():784] starting backend
+2025-03-09 03:17:02,731 INFO    Thread-225 (_run_job):9063 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 03:17:02,734 INFO    Thread-225 (_run_job):9063 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-03-09 03:17:02,734 INFO    Thread-225 (_run_job):9063 [wandb_init.py:init():803] backend started and connected
+2025-03-09 03:17:02,740 INFO    Thread-225 (_run_job):9063 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'ReLU', 'batch_size': 16, 'dataset': 'fashion_mnist', 'epochs': 10, 'hidden_layer_sizes': 32, 'hidden_layers': 4, 'initialization': 'random', 'learning_rate': 0.0001, 'optimizer': 'nadam', 'weight_decay': 0}
+2025-03-09 03:17:02,752 INFO    Thread-225 (_run_job):9063 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 03:17:02,752 INFO    Thread-225 (_run_job):9063 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-03-09 03:17:02,752 INFO    Thread-225 (_run_job):9063 [wandb_init.py:init():896] updated telemetry
+2025-03-09 03:17:02,787 INFO    Thread-225 (_run_job):9063 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-09 03:17:03,229 INFO    Thread-225 (_run_job):9063 [wandb_init.py:init():995] starting run threads in backend
+2025-03-09 03:17:03,607 INFO    Thread-225 (_run_job):9063 [wandb_run.py:_console_start():2377] atexit reg
+2025-03-09 03:17:03,607 INFO    Thread-225 (_run_job):9063 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 03:17:03,607 INFO    Thread-225 (_run_job):9063 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 03:17:03,607 INFO    Thread-225 (_run_job):9063 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-03-09 03:17:03,608 INFO    Thread-225 (_run_job):9063 [wandb_init.py:init():1037] run started, returning control to user process
+2025-03-09 03:17:57,792 INFO    Thread-225 (_run_job):9063 [wandb_run.py:_finish():2112] finishing run cs24m021-iit-madras/DA6401_Assignment1/vljywt9n
+2025-03-09 03:17:57,793 INFO    Thread-225 (_run_job):9063 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 03:17:57,793 INFO    Thread-225 (_run_job):9063 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 03:17:57,793 INFO    Thread-225 (_run_job):9063 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 03:17:57,793 INFO    Thread-225 (_run_job):9063 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-03-09 03:17:57,793 INFO    Thread-225 (_run_job):9063 [wandb_run.py:_restore():2324] restore
+2025-03-09 03:17:57,799 INFO    Thread-225 (_run_job):9063 [wandb_run.py:_restore():2330] restore done
+2025-03-09 03:18:00,868 INFO    MsgRouterThr:9063 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.
+2025-03-09 03:18:00,870 INFO    Thread-225 (_run_job):9063 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-09 03:18:00,870 INFO    Thread-225 (_run_job):9063 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-09 03:18:00,874 INFO    Thread-225 (_run_job):9063 [wandb_run.py:_footer_sync_info():3919] logging synced files

@@ -1,0 +1,16 @@
+{"time":"2025-03-09T00:03:10.804374+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_000310-mvg24xhx/logs/debug-core.log"}
+{"time":"2025-03-09T00:03:10.919708+05:30","level":"INFO","msg":"created new stream","id":"mvg24xhx"}
+{"time":"2025-03-09T00:03:10.919748+05:30","level":"INFO","msg":"stream: started","id":"mvg24xhx"}
+{"time":"2025-03-09T00:03:10.919757+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mvg24xhx"}
+{"time":"2025-03-09T00:03:10.919763+05:30","level":"INFO","msg":"handler: started","stream_id":"mvg24xhx"}
+{"time":"2025-03-09T00:03:10.919813+05:30","level":"INFO","msg":"sender: started","stream_id":"mvg24xhx"}
+{"time":"2025-03-09T00:03:11.312697+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T00:03:12.076961+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T00:03:12.07805+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T00:03:13.086277+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/Confusion_Matrix_0_a73792c2ae3975312402.png","runtime_seconds":0.331158334,"progress":"45.5KB/45.5KB"},{"desc":"uploading output.log","runtime_seconds":0.331144,"progress":"529B/529B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.331136958,"progress":"328B/328B"},{"desc":"uploading config.yaml","runtime_seconds":0.016303458,"progress":"916B/916B"}],"total_operations":4}}
+{"time":"2025-03-09T00:03:13.562908+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T00:03:15.296886+05:30","level":"INFO","msg":"stream: closing","id":"mvg24xhx"}
+{"time":"2025-03-09T00:03:15.296934+05:30","level":"INFO","msg":"handler: closed","stream_id":"mvg24xhx"}
+{"time":"2025-03-09T00:03:15.296962+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"mvg24xhx"}
+{"time":"2025-03-09T00:03:15.297235+05:30","level":"INFO","msg":"sender: closed","stream_id":"mvg24xhx"}
+{"time":"2025-03-09T00:03:15.297263+05:30","level":"INFO","msg":"stream: closed","id":"mvg24xhx"}

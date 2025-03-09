@@ -1,0 +1,16 @@
+{"time":"2025-03-09T06:14:17.287957+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_061417-w5ve1nmw/logs/debug-core.log"}
+{"time":"2025-03-09T06:14:17.401437+05:30","level":"INFO","msg":"created new stream","id":"w5ve1nmw"}
+{"time":"2025-03-09T06:14:17.40149+05:30","level":"INFO","msg":"stream: started","id":"w5ve1nmw"}
+{"time":"2025-03-09T06:14:17.401508+05:30","level":"INFO","msg":"handler: started","stream_id":"w5ve1nmw"}
+{"time":"2025-03-09T06:14:17.401625+05:30","level":"INFO","msg":"sender: started","stream_id":"w5ve1nmw"}
+{"time":"2025-03-09T06:14:17.401684+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"w5ve1nmw"}
+{"time":"2025-03-09T06:14:17.785204+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T06:15:51.777658+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T06:15:51.778711+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T06:15:52.792687+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.747568666},{"desc":"uploading output.log","runtime_seconds":0.393931416,"progress":"883B/883B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.39389375,"progress":"257B/257B"}],"total_operations":3}}
+{"time":"2025-03-09T06:15:54.138457+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T06:15:55.572492+05:30","level":"INFO","msg":"stream: closing","id":"w5ve1nmw"}
+{"time":"2025-03-09T06:15:55.572571+05:30","level":"INFO","msg":"handler: closed","stream_id":"w5ve1nmw"}
+{"time":"2025-03-09T06:15:55.572606+05:30","level":"INFO","msg":"sender: closed","stream_id":"w5ve1nmw"}
+{"time":"2025-03-09T06:15:55.572598+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"w5ve1nmw"}
+{"time":"2025-03-09T06:15:55.572885+05:30","level":"INFO","msg":"stream: closed","id":"w5ve1nmw"}

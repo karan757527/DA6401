@@ -1,0 +1,8 @@
+{"time":"2025-03-09T00:28:05.017317+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_002805-mvg24xhx/logs/debug-core.log"}
+{"time":"2025-03-09T00:28:05.128663+05:30","level":"INFO","msg":"created new stream","id":"mvg24xhx"}
+{"time":"2025-03-09T00:28:05.128705+05:30","level":"INFO","msg":"stream: started","id":"mvg24xhx"}
+{"time":"2025-03-09T00:28:05.12872+05:30","level":"INFO","msg":"handler: started","stream_id":"mvg24xhx"}
+{"time":"2025-03-09T00:28:05.128745+05:30","level":"INFO","msg":"sender: started","stream_id":"mvg24xhx"}
+{"time":"2025-03-09T00:28:05.128776+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mvg24xhx"}
+{"time":"2025-03-09T00:28:05.458688+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-09T00:28:05.458738+05:30","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 404 Not Found: {\"errors\":[{\"message\":\"sweep qcdvwlqj not found\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}

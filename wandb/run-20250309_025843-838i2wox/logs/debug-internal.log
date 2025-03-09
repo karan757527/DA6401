@@ -1,0 +1,16 @@
+{"time":"2025-03-09T02:58:43.607561+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_025843-838i2wox/logs/debug-core.log"}
+{"time":"2025-03-09T02:58:43.723768+05:30","level":"INFO","msg":"created new stream","id":"838i2wox"}
+{"time":"2025-03-09T02:58:43.723833+05:30","level":"INFO","msg":"stream: started","id":"838i2wox"}
+{"time":"2025-03-09T02:58:43.72385+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"838i2wox"}
+{"time":"2025-03-09T02:58:43.723911+05:30","level":"INFO","msg":"sender: started","stream_id":"838i2wox"}
+{"time":"2025-03-09T02:58:43.723864+05:30","level":"INFO","msg":"handler: started","stream_id":"838i2wox"}
+{"time":"2025-03-09T02:58:44.14185+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T02:59:14.618+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T02:59:14.618926+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T02:59:15.635229+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.343953542}],"total_operations":1}}
+{"time":"2025-03-09T02:59:17.008725+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T02:59:18.441873+05:30","level":"INFO","msg":"stream: closing","id":"838i2wox"}
+{"time":"2025-03-09T02:59:18.441969+05:30","level":"INFO","msg":"handler: closed","stream_id":"838i2wox"}
+{"time":"2025-03-09T02:59:18.442009+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"838i2wox"}
+{"time":"2025-03-09T02:59:18.442081+05:30","level":"INFO","msg":"sender: closed","stream_id":"838i2wox"}
+{"time":"2025-03-09T02:59:18.442689+05:30","level":"INFO","msg":"stream: closed","id":"838i2wox"}

@@ -1,0 +1,22 @@
+wandb_version: 1
+
+activation:
+  value: tanh
+batch_size:
+  value: 64
+dataset:
+  value: fashion_mnist
+epochs:
+  value: 10
+hidden_layer_sizes:
+  value: 128
+hidden_layers:
+  value: 3
+initialization:
+  value: Xavier
+learning_rate:
+  value: 0.001
+optimizer:
+  value: nadam
+weight_decay:
+  value: 0

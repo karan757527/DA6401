@@ -1,0 +1,7 @@
+Epoch 1: Train Loss=0.4191, Train Acc=84.81%, Val Loss=0.4370, Val Acc=84.15%
+Epoch 2: Train Loss=0.3713, Train Acc=86.45%, Val Loss=0.3965, Val Acc=85.40%
+Epoch 3: Train Loss=0.3467, Train Acc=87.24%, Val Loss=0.3810, Val Acc=85.93%
+Epoch 4: Train Loss=0.3189, Train Acc=88.33%, Val Loss=0.3622, Val Acc=86.65%
+Epoch 5: Train Loss=0.3022, Train Acc=88.87%, Val Loss=0.3546, Val Acc=86.85%
+Test-loss : 0.39287890818693766, Test-accuracy:86.04%
+0.39287890818693766 86.04
