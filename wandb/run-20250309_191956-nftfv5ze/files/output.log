@@ -1,0 +1,149 @@
+[34m[1mwandb[0m: Appending key for api.wandb.ai to your netrc file: /Users/karanagrawal/.netrc
+[34m[1mwandb[0m: Currently logged in as: [33mcs24m021[0m ([33mcs24m021-iit-madras[0m) to [32mhttps://api.wandb.ai[0m. Use [1m`wandb login --relogin`[0m to force relogin
+Traceback (most recent call last):
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 80, in <module>
+    main()
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 44, in main
+    wandb.init(project=args.wandb_project, entity=args.wandb_entity, config=vars(args))
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1485, in init
+    wandb._sentry.reraise(e)
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/analytics/sentry.py", line 156, in reraise
+    raise exc.with_traceback(sys.exc_info()[2])
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1471, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 968, in init
+    raise error
+wandb.errors.errors.CommError: failed to upsert bucket: returned error 403 Forbidden: {"errors":[{"message":"permission denied","path":["upsertBucket"],"extensions":{"code":"PERMISSION_ERROR"}}],"data":{"upsertBucket":null}}
+[34m[1mwandb[0m: Appending key for api.wandb.ai to your netrc file: /Users/karanagrawal/.netrc
+[34m[1mwandb[0m: Currently logged in as: [33mcs24m021[0m ([33mcs24m021-iit-madras[0m) to [32mhttps://api.wandb.ai[0m. Use [1m`wandb login --relogin`[0m to force relogin
+Traceback (most recent call last):
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 80, in <module>
+    main()
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 44, in main
+    wandb.init(project=args.wandb_project, entity=args.wandb_entity, config=vars(args))
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1485, in init
+    wandb._sentry.reraise(e)
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/analytics/sentry.py", line 156, in reraise
+    raise exc.with_traceback(sys.exc_info()[2])
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1471, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 968, in init
+    raise error
+wandb.errors.errors.CommError: failed to upsert bucket: returned error 403 Forbidden: {"errors":[{"message":"permission denied","path":["upsertBucket"],"extensions":{"code":"PERMISSION_ERROR"}}],"data":{"upsertBucket":null}}
+[34m[1mwandb[0m: Appending key for api.wandb.ai to your netrc file: /Users/karanagrawal/.netrc
+[34m[1mwandb[0m: Currently logged in as: [33mcs24m021[0m ([33mcs24m021-iit-madras[0m) to [32mhttps://api.wandb.ai[0m. Use [1m`wandb login --relogin`[0m to force relogin
+Epoch 1: Train Loss=1.0976, Train Acc=53.67%, Val Loss=1.0945, Val Acc=54.23%
+Epoch 2: Train Loss=1.1848, Train Acc=53.17%, Val Loss=1.1844, Val Acc=53.87%
+Epoch 3: Train Loss=1.0740, Train Acc=53.43%, Val Loss=1.0805, Val Acc=53.52%
+Epoch 4: Train Loss=1.0874, Train Acc=54.84%, Val Loss=1.1047, Val Acc=55.07%
+Epoch 5: Train Loss=1.0951, Train Acc=50.35%, Val Loss=1.1289, Val Acc=50.10%
+Epoch 6: Train Loss=1.0817, Train Acc=54.81%, Val Loss=1.0993, Val Acc=54.53%
+Epoch 7: Train Loss=1.0539, Train Acc=53.84%, Val Loss=1.0484, Val Acc=54.35%
+Epoch 8: Train Loss=1.0794, Train Acc=53.01%, Val Loss=1.0894, Val Acc=53.60%
+Epoch 9: Train Loss=0.9308, Train Acc=60.76%, Val Loss=0.9437, Val Acc=60.73%
+Epoch 10: Train Loss=0.9237, Train Acc=61.26%, Val Loss=0.9281, Val Acc=61.30%
+Test Loss: 0.9504, Test Acc: 60.62%
+[34m[1mwandb[0m: Appending key for api.wandb.ai to your netrc file: /Users/karanagrawal/.netrc
+[34m[1mwandb[0m: Currently logged in as: [33mcs24m021[0m ([33mcs24m021-iit-madras[0m) to [32mhttps://api.wandb.ai[0m. Use [1m`wandb login --relogin`[0m to force relogin
+[34m[1mwandb[0m: Tracking run with wandb version 0.19.7
+[34m[1mwandb[0m: Run data is saved locally in [35m[1m/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_192600-q0l3evjn[0m
+[34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+[34m[1mwandb[0m: Syncing run [33mfast-surf-1[0m
+[34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/cs24m021-iit-madras/DA6401_A1[0m
+[34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/cs24m021-iit-madras/DA6401_A1/runs/q0l3evjn[0m
+Epoch 1: Train Loss=1.2095, Train Acc=57.18%, Val Loss=1.2029, Val Acc=56.95%
+Epoch 2: Train Loss=1.0667, Train Acc=59.31%, Val Loss=1.0688, Val Acc=59.13%
+Epoch 3: Train Loss=1.0434, Train Acc=61.26%, Val Loss=1.0581, Val Acc=61.33%
+Epoch 4: Train Loss=1.0664, Train Acc=61.24%, Val Loss=1.0809, Val Acc=60.72%
+Epoch 5: Train Loss=0.8596, Train Acc=70.10%, Val Loss=0.8702, Val Acc=69.70%
+Epoch 6: Train Loss=0.9470, Train Acc=69.12%, Val Loss=0.9822, Val Acc=68.33%
+Epoch 7: Train Loss=0.8375, Train Acc=70.96%, Val Loss=0.8567, Val Acc=70.38%
+Epoch 8: Train Loss=0.8546, Train Acc=71.03%, Val Loss=0.8729, Val Acc=70.35%
+Epoch 9: Train Loss=0.9036, Train Acc=70.22%, Val Loss=0.9309, Val Acc=69.42%
+Epoch 10: Train Loss=0.8527, Train Acc=70.86%, Val Loss=0.8762, Val Acc=69.90%
+Test Loss: 0.9031, Test Acc: 69.78%
+[34m[1mwandb[0m: Appending key for api.wandb.ai to your netrc file: /Users/karanagrawal/.netrc
+[34m[1mwandb[0m: Currently logged in as: [33mcs24m021[0m ([33mcs24m021-iit-madras[0m) to [32mhttps://api.wandb.ai[0m. Use [1m`wandb login --relogin`[0m to force relogin
+[34m[1mwandb[0m: Tracking run with wandb version 0.19.7
+[34m[1mwandb[0m: Run data is saved locally in [35m[1m/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_192658-cwggjuks[0m
+[34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+[34m[1mwandb[0m: Syncing run [33mdeft-dust-2[0m
+[34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/cs24m021-iit-madras/DA6401_A1[0m
+[34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/cs24m021-iit-madras/DA6401_A1/runs/cwggjuks[0m
+Epoch 1: Train Loss=0.8957, Train Acc=63.74%, Val Loss=0.9000, Val Acc=63.63%
+Epoch 2: Train Loss=0.9583, Train Acc=59.33%, Val Loss=0.9882, Val Acc=58.57%
+Epoch 3: Train Loss=0.9506, Train Acc=62.47%, Val Loss=0.9773, Val Acc=62.03%
+Epoch 4: Train Loss=0.8841, Train Acc=63.75%, Val Loss=0.9051, Val Acc=63.57%
+Epoch 5: Train Loss=0.9138, Train Acc=62.98%, Val Loss=0.9353, Val Acc=62.60%
+Epoch 6: Train Loss=0.8946, Train Acc=64.51%, Val Loss=0.9202, Val Acc=64.10%
+Epoch 7: Train Loss=0.9062, Train Acc=64.51%, Val Loss=0.9443, Val Acc=64.10%
+Epoch 8: Train Loss=1.0118, Train Acc=64.35%, Val Loss=1.0138, Val Acc=64.17%
+Epoch 9: Train Loss=0.9139, Train Acc=63.57%, Val Loss=0.9628, Val Acc=63.22%
+Epoch 10: Train Loss=0.9330, Train Acc=63.64%, Val Loss=0.9619, Val Acc=63.37%
+Test Loss: 0.9705, Test Acc: 62.63%
+[34m[1mwandb[0m:                                                        
+[34m[1mwandb[0m: [38;5;178m⣾[0m uploading config.yaml 582B/582B (0.3s)
+[34m[1mwandb[0m: Run history:
+[34m[1mwandb[0m:         epoch ▁▂▃▃▄▅▆▆▇█
+[34m[1mwandb[0m: test_accuracy ▁
+[34m[1mwandb[0m:     train_acc ▇▁▅▇▆███▇▇
+[34m[1mwandb[0m:    train_loss ▂▅▅▁▃▂▂█▃▄
+[34m[1mwandb[0m:       val_acc ▇▁▅▇▆███▇▇
+[34m[1mwandb[0m:      val_loss ▁▆▆▁▃▂▄█▅▅
+[34m[1mwandb[0m:
+[34m[1mwandb[0m: Run summary:
+[34m[1mwandb[0m:         epoch 10
+[34m[1mwandb[0m: test_accuracy 62.63
+[34m[1mwandb[0m:     train_acc 63.64259
+[34m[1mwandb[0m:    train_loss 0.93303
+[34m[1mwandb[0m:       val_acc 63.36667
+[34m[1mwandb[0m:      val_loss 0.96185
+[34m[1mwandb[0m:
+[34m[1mwandb[0m: 🚀 View run [33mopt_nadam_hl_1_bs_64_e_10_act_sigmoid_eta_0.1_init_random_hls_4_dataset_fashion_mnist_cross_entropy[0m at: [34m[4mhttps://wandb.ai/cs24m021-iit-madras/DA6401_A1/runs/cwggjuks[0m
+[34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/cs24m021-iit-madras/DA6401_A1[0m
+[34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+[34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20250309_192658-cwggjuks/logs[0m
+[34m[1mwandb[0m: Appending key for api.wandb.ai to your netrc file: /Users/karanagrawal/.netrc
+[34m[1mwandb[0m: Currently logged in as: [33mcs24m021[0m ([33mcs24m021-iit-madras[0m) to [32mhttps://api.wandb.ai[0m. Use [1m`wandb login --relogin`[0m to force relogin
+wandb logged in
+[34m[1mwandb[0m: Tracking run with wandb version 0.19.7
+[34m[1mwandb[0m: Run data is saved locally in [35m[1m/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_192832-qvuy7pcx[0m
+[34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+[34m[1mwandb[0m: Syncing run [33mcopper-frost-3[0m
+[34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/cs24m021-iit-madras/DA6401_A1[0m
+[34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/cs24m021-iit-madras/DA6401_A1/runs/qvuy7pcx[0m
+Epoch 1: Train Loss=0.9396, Train Acc=62.51%, Val Loss=0.9504, Val Acc=62.10%
+Epoch 2: Train Loss=1.0240, Train Acc=62.15%, Val Loss=1.0349, Val Acc=62.12%
+Epoch 3: Train Loss=0.9534, Train Acc=63.27%, Val Loss=0.9724, Val Acc=62.67%
+Epoch 4: Train Loss=0.9824, Train Acc=61.49%, Val Loss=1.0199, Val Acc=60.92%
+Epoch 5: Train Loss=0.9565, Train Acc=62.99%, Val Loss=0.9809, Val Acc=62.37%
+Epoch 6: Train Loss=0.8700, Train Acc=75.20%, Val Loss=0.8819, Val Acc=74.12%
+Epoch 7: Train Loss=0.8605, Train Acc=74.73%, Val Loss=0.8854, Val Acc=73.48%
+Epoch 8: Train Loss=0.8565, Train Acc=74.53%, Val Loss=0.8807, Val Acc=73.18%
+Epoch 9: Train Loss=0.8863, Train Acc=71.64%, Val Loss=0.9129, Val Acc=71.07%
+Epoch 10: Train Loss=0.8570, Train Acc=75.76%, Val Loss=0.9041, Val Acc=74.28%
+Test Loss: 0.9113, Test Acc: 74.36%
+[34m[1mwandb[0m:                                                                                s)
+[34m[1mwandb[0m: [38;5;178m⣻[0m uploading history steps 0-10, summary, console lines 0-10 (0.3s)
+[34m[1mwandb[0m: Run history:
+[34m[1mwandb[0m:         epoch ▁▂▃▃▄▅▆▆▇█
+[34m[1mwandb[0m: test_accuracy ▁
+[34m[1mwandb[0m:     train_acc ▂▁▂▁▂█▇▇▆█
+[34m[1mwandb[0m:    train_loss ▄█▅▆▅▂▁▁▂▁
+[34m[1mwandb[0m:       val_acc ▂▂▂▁▂██▇▆█
+[34m[1mwandb[0m:      val_loss ▄█▅▇▆▁▁▁▂▂
+[34m[1mwandb[0m:
+[34m[1mwandb[0m: Run summary:
+[34m[1mwandb[0m:         epoch 10
+[34m[1mwandb[0m: test_accuracy 74.36
+[34m[1mwandb[0m:     train_acc 75.76296
+[34m[1mwandb[0m:    train_loss 0.85701
+[34m[1mwandb[0m:       val_acc 74.28333
+[34m[1mwandb[0m:      val_loss 0.90407
+[34m[1mwandb[0m:
+[34m[1mwandb[0m: 🚀 View run [33mopt_nadam_hl_1_bs_64_e_10_act_sigmoid_eta_0.1_init_random_hls_4_dataset_fashion_mnist_cross_entropy[0m at: [34m[4mhttps://wandb.ai/cs24m021-iit-madras/DA6401_A1/runs/qvuy7pcx[0m
+[34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/cs24m021-iit-madras/DA6401_A1[0m
+[34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+[34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20250309_192832-qvuy7pcx/logs[0m

@@ -1,0 +1,46 @@
+2025-03-09 19:02:15,856 INFO    MainThread:34945 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-03-09 19:02:15,857 INFO    MainThread:34945 [wandb_setup.py:_flush():67] Configure stats pid to 34945
+2025-03-09 19:02:15,857 INFO    MainThread:34945 [wandb_setup.py:_flush():67] Loading settings from /Users/karanagrawal/.config/wandb/settings
+2025-03-09 19:02:15,857 INFO    MainThread:34945 [wandb_setup.py:_flush():67] Loading settings from /Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/settings
+2025-03-09 19:02:15,857 INFO    MainThread:34945 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 19:02:15,857 INFO    MainThread:34945 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_190215-1v9k64r7/logs/debug.log
+2025-03-09 19:02:15,857 INFO    MainThread:34945 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_190215-1v9k64r7/logs/debug-internal.log
+2025-03-09 19:02:15,857 INFO    MainThread:34945 [wandb_init.py:init():761] calling init triggers
+2025-03-09 19:02:15,858 INFO    MainThread:34945 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'wandb_project': 'DA6401_A1', 'wandb_entity': 'karan', 'dataset': 'fashion_mnist', 'epochs': 10, 'batch_size': 64, 'loss': 'cross_entropy', 'optimizer': 'sgd', 'learning_rate': 0.1, 'momentum': 0.5, 'beta': 0.5, 'beta1': 0.5, 'beta2': 0.5, 'epsilon': 1e-06, 'weight_decay': 0.0, 'weight_init': 'random', 'num_layers': 1, 'hidden_size': 4, 'activation': 'sigmoid', '_wandb': {}}
+2025-03-09 19:02:15,858 INFO    MainThread:34945 [wandb_init.py:init():784] starting backend
+2025-03-09 19:02:15,858 INFO    MainThread:34945 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 19:02:15,890 INFO    MainThread:34945 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-03-09 19:02:15,891 INFO    MainThread:34945 [wandb_init.py:init():803] backend started and connected
+2025-03-09 19:02:15,897 INFO    MainThread:34945 [wandb_init.py:init():896] updated telemetry
+2025-03-09 19:02:15,935 INFO    MainThread:34945 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-09 19:02:16,463 ERROR   MainThread:34945 [wandb_init.py:init():1481] error in wandb.init()
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1471, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 968, in init
+    raise error
+wandb.errors.errors.CommError: failed to upsert bucket: returned error 403 Forbidden: {"errors":[{"message":"permission denied","path":["upsertBucket"],"extensions":{"code":"PERMISSION_ERROR"}}],"data":{"upsertBucket":null}}
+2025-03-09 19:02:16,472 WARNING MsgRouterThr:34945 [router.py:message_loop():77] message_loop has been closed
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/interface/router_sock.py", line 28, in _read_message
+    resp = self._sock_client.read_server_response(timeout=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 285, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 270, in _read_packet_bytes
+    raise SockClientClosedError
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/interface/router.py", line 70, in message_loop
+    msg = self._read_message()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/interface/router_sock.py", line 30, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-03-09 19:02:16,473 INFO    MsgRouterThr:34945 [mailbox.py:close():115] Closing mailbox, abandoning 0 handles.

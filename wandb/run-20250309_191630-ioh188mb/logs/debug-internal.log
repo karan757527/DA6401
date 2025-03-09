@@ -1,0 +1,17 @@
+{"time":"2025-03-09T19:16:30.121429+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_191630-ioh188mb/logs/debug-core.log"}
+{"time":"2025-03-09T19:16:30.236819+05:30","level":"INFO","msg":"created new stream","id":"ioh188mb"}
+{"time":"2025-03-09T19:16:30.237037+05:30","level":"INFO","msg":"stream: started","id":"ioh188mb"}
+{"time":"2025-03-09T19:16:30.23715+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ioh188mb"}
+{"time":"2025-03-09T19:16:30.237255+05:30","level":"INFO","msg":"handler: started","stream_id":"ioh188mb"}
+{"time":"2025-03-09T19:16:30.237369+05:30","level":"INFO","msg":"sender: started","stream_id":"ioh188mb"}
+{"time":"2025-03-09T19:16:30.568015+05:30","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-09T19:16:30.568164+05:30","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403 Forbidden: {\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-03-09T19:16:30.577718+05:30","level":"INFO","msg":"stream: closing","id":"ioh188mb"}
+{"time":"2025-03-09T19:16:30.578316+05:30","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-03-09T19:16:30.89252+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-09T19:16:30.893608+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"project karan/DA6401_A1 not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-03-09T19:16:30.896054+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T19:16:30.896147+05:30","level":"INFO","msg":"sender: closed","stream_id":"ioh188mb"}
+{"time":"2025-03-09T19:16:30.896142+05:30","level":"INFO","msg":"handler: closed","stream_id":"ioh188mb"}
+{"time":"2025-03-09T19:16:30.896141+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ioh188mb"}
+{"time":"2025-03-09T19:16:30.896306+05:30","level":"INFO","msg":"stream: closed","id":"ioh188mb"}

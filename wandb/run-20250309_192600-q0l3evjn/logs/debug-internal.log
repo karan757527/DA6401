@@ -1,0 +1,53 @@
+{"time":"2025-03-09T19:26:00.282755+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_192600-q0l3evjn/logs/debug-core.log"}
+{"time":"2025-03-09T19:26:00.392158+05:30","level":"INFO","msg":"created new stream","id":"q0l3evjn"}
+{"time":"2025-03-09T19:26:00.392205+05:30","level":"INFO","msg":"stream: started","id":"q0l3evjn"}
+{"time":"2025-03-09T19:26:00.392216+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"q0l3evjn"}
+{"time":"2025-03-09T19:26:00.392227+05:30","level":"INFO","msg":"sender: started","stream_id":"q0l3evjn"}
+{"time":"2025-03-09T19:26:00.392312+05:30","level":"INFO","msg":"handler: started","stream_id":"q0l3evjn"}
+{"time":"2025-03-09T19:26:01.059351+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T19:26:11.062451+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:26:21.060646+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:26:31.064085+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:26:41.064283+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:26:51.063236+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:27:01.061922+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:27:11.061022+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:27:21.060079+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:27:31.061468+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:27:41.062989+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:27:51.061119+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:28:01.066051+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:28:11.061428+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:28:21.061383+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:28:31.061548+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:28:41.061121+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:28:51.061585+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:29:01.06051+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:29:11.061375+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:29:21.061483+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:29:31.061483+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:29:41.061772+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:29:51.062013+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:30:01.061566+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:30:11.061721+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:30:21.061597+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:30:31.061614+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:30:41.061699+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:30:51.060719+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:31:01.062211+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:31:11.061825+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:31:21.06153+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:31:31.061888+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:31:41.061861+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:31:51.061393+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:32:01.061267+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:32:11.062269+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:32:21.062297+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: input/output error"}
+{"time":"2025-03-09T19:32:27.968059+05:30","level":"INFO","msg":"stream: closing","id":"q0l3evjn"}
+{"time":"2025-03-09T19:32:27.968114+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T19:32:27.968957+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T19:32:29.722162+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T19:32:30.426033+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"q0l3evjn"}
+{"time":"2025-03-09T19:32:30.426007+05:30","level":"INFO","msg":"handler: closed","stream_id":"q0l3evjn"}
+{"time":"2025-03-09T19:32:30.426047+05:30","level":"INFO","msg":"sender: closed","stream_id":"q0l3evjn"}
+{"time":"2025-03-09T19:32:30.428038+05:30","level":"INFO","msg":"stream: closed","id":"q0l3evjn"}
