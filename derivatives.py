@@ -1,9 +1,17 @@
 import numpy as np
 
 from activations import Activation_Functions
+
 class Derivatives:
     def __init__(self):
         self.activation = Activation_Functions()
+        self.derivative_functions = {
+            "sigmoid": self.sigmoid_derivative,
+            "tanh": self.tanh_derivative,
+            "ReLU": self.ReLU_derivative,
+            "softmax": self.softmax_derivative,
+            "identity": self.identity_derivative
+        }
 
     def sigmoid_derivative(self, x):
         k = self.activation.sigmoid(x)
@@ -26,13 +34,8 @@ class Derivatives:
         return np.ones_like(x)  # derivative of identity is 1
 
     def derivatives(self, x, activation_function):
-        if activation_function == "sigmoid":
-            return self.sigmoid_derivative(x)
-        elif activation_function == "tanh":
-            return self.tanh_derivative(x)
-        elif activation_function == "ReLU":
-            return self.ReLU_derivative(x)
-        elif activation_function == "softmax":
-            return self.softmax_derivative(x)
-        elif activation_function == "identity":
-            return self.identity_derivative(x)
+        derivative_function = self.derivative_functions.get(activation_function)
+        if derivative_function:
+            return derivative_function(x)
+        else:
+            raise ValueError(f"Derivative for activation function '{activation_function}' is not supported.")

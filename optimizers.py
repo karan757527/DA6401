@@ -10,20 +10,26 @@ class Optimizer:
         self.beta1 = config["beta1"] 
         self.beta2 = config["beta2"]  
         self.epsilon_val = config["epsilon"]
+        self.optimization_methods = {
+            "sgd": self.stochastic_gradient_descent,
+            "momentum": self.momentum_gradient_descent,
+            "nesterov": self.nesterov_gradient_descent,
+            "nag": self.nesterov_gradient_descent,
+            "rmsprop": self.rmsprop,
+            "adam": self.adam,
+            "nadam": self.nadam
+        }
 
     def update_parameters(self, timestep):
-        if self.optim_type == "sgd":
-            self.stochastic_gradient_descent()
-        elif self.optim_type == "momentum":
-            self.momentum_gradient_descent()
-        elif self.optim_type == "nesterov" or self.optim_type == "nag" :
-            self.nesterov_gradient_descent()
-        elif self.optim_type == "rmsprop":
-            self.rmsprop()
-        elif self.optim_type == "adam":
-            self.adam(timestep)
-        elif self.optim_type == "nadam":
-            self.nadam(timestep)
+        optimization_function = self.optimization_methods.get(self.optim_type)
+        
+        if optimization_function:
+            if self.optim_type in ["adam", "nadam"]:
+                optimization_function(timestep)
+            else:
+                optimization_function()
+        else:
+            raise ValueError(f"Optimization method '{self.optim_type}' is not supported.")
 
     def stochastic_gradient_descent(self):
         param_layers = self.model.weights.keys()

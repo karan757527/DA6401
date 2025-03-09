@@ -1,0 +1,66 @@
+_wandb:
+    value:
+        cli_version: 0.19.7
+        m: []
+        python_version: 3.11.7
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+                - 55
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+                - 55
+            "3":
+                - 2
+                - 16
+                - 17
+                - 23
+                - 55
+            "4": 3.11.7
+            "5": 0.19.7
+            "8":
+                - 5
+            "12": 0.19.7
+            "13": darwin-arm64
+activation:
+    value: sigmoid
+batch_size:
+    value: 64
+beta:
+    value: 0.5
+beta1:
+    value: 0.5
+beta2:
+    value: 0.5
+dataset:
+    value: fashion_mnist
+epochs:
+    value: 15
+epsilon:
+    value: 1e-06
+hidden_size:
+    value: 4
+learning_rate:
+    value: 0.1
+loss:
+    value: cross_entropy
+momentum:
+    value: 0.5
+num_layers:
+    value: 1
+optimizer:
+    value: adam
+wandb_entity:
+    value: cs24m021-iit-madras
+wandb_project:
+    value: DA6401_A1
+weight_decay:
+    value: 0
+weight_init:
+    value: random

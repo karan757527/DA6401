@@ -2,8 +2,18 @@ import numpy as np
 
 class Activation_Functions:
     def __init__(self):
-        pass
+        self.activation_functions = {
+            "tanh": self.tanh,
+            "sigmoid": self.sigmoid,
+            "ReLU": self.ReLU,
+            "softmax": self.softmax,
+            "identity": self.identity
+        }
 
+    def softmax(self, x):
+        exp_x = np.exp(x - np.max(x, axis=1, keepdims=True))  # numerical stability
+        return exp_x / np.sum(exp_x, axis=1, keepdims=True)  # softmax probabilities
+        
     def sigmoid(self, x):
         result = np.zeros_like(x)
         result[x >= 0] = 1 / (1 + np.exp(-x[x >= 0]))  # for positive values
@@ -16,21 +26,12 @@ class Activation_Functions:
     def tanh(self, x):
         return np.tanh(x)  # hyperbolic tangent activation
 
-    def softmax(self, x):
-        exp_x = np.exp(x - np.max(x, axis=1, keepdims=True))  # numerical stability
-        return exp_x / np.sum(exp_x, axis=1, keepdims=True)  # softmax probabilities
-
     def identity(self, x):
         return x  # identity function
 
     def activation(self, x, fun):
-        if fun == "tanh":
-            return self.tanh(x)
-        elif fun == "sigmoid":
-            return self.sigmoid(x)
-        elif fun == "ReLU":
-            return self.ReLU(x)
-        elif fun == "softmax":
-            return self.softmax(x)
-        elif fun == "identity":
-            return self.identity(x)
+        activation_function = self.activation_functions.get(fun)
+        if activation_function:
+            return activation_function(x)
+        else:
+            raise ValueError(f"Activation function '{fun}' is not supported.")

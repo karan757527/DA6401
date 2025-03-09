@@ -52,41 +52,58 @@ class Neural_Network:
 
     def initialize_parameters(self):
         for layer in range(1, len(self.layers)):
-            self.m_weights[layer] = np.zeros((self.layers[layer-1], self.layers[layer]))  # initialize momentum for weights
-            self.m_biases[layer] = np.zeros((1, self.layers[layer]))  # initialize momentum for biases
             self.v_weights[layer] = np.zeros((self.layers[layer-1], self.layers[layer]))  # initialize velocity for weights
             self.v_biases[layer] = np.zeros((1, self.layers[layer]))  # initialize velocity for biases
-
+            
+            self.m_weights[layer] = np.zeros((self.layers[layer-1], self.layers[layer]))  # initialize momentum for weights
+            self.m_biases[layer] = np.zeros((1, self.layers[layer]))  # initialize momentum for biases
+            
             if self.initialization == "random":
-                self.weights[layer] = np.random.randn(self.layers[layer-1], self.layers[layer])  # random initialization
-                self.biases[layer] = np.random.randn(1, self.layers[layer])
+                self.weights[layer] = np.random.normal(0, 1, (self.layers[layer-1], self.layers[layer]))
+                self.biases[layer] = np.random.normal(0, 1, (1, self.layers[layer]))
             elif self.initialization == "Xavier":
-                variance_w = 6.0 / (self.layers[layer-1] + self.layers[layer])  # Xavier initialization for weights
-                variance_b = 6.0 / (1 + self.layers[layer])  # Xavier initialization for biases
-                self.weights[layer] = np.random.randn(self.layers[layer-1], self.layers[layer]) * np.sqrt(variance_w)
-                self.biases[layer] = np.random.randn(1, self.layers[layer]) * np.sqrt(variance_b)
+                scale_w = np.sqrt(2.0 / (self.layers[layer-1] + self.layers[layer]))
+                scale_b = np.sqrt(2.0 / (1 + self.layers[layer]))
+                self.weights[layer] = np.random.normal(0, scale_w, (self.layers[layer-1], self.layers[layer]))
+                self.biases[layer] = np.random.normal(0, scale_b, (1, self.layers[layer]))
 
     def forward_propagation(self, x):
         self.h[0] = x
-        for layer in range(1, len(self.layers)-1):
-            self.a[layer] = np.dot(self.h[layer-1], self.weights[layer]) + self.biases[layer]  # linear transformation
-            self.h[layer] = self.act.activation(self.a[layer], self.activation_function)  # apply activation
-        self.a[layer+1] = np.dot(self.h[layer], self.weights[layer+1]) + self.biases[layer+1]
-        self.h[layer+1] = self.act.activation(self.a[layer+1], "softmax")  # softmax for output layer
-        return self.h[layer+1]
+        num_layers = len(self.layers) - 1
+    
+        for layer in range(1, num_layers):
+            linear_output = self.h[layer-1] @ self.weights[layer]
+            self.a[layer] = linear_output + self.biases[layer]   # linear transformation
+            self.h[layer] = self.act.activation(self.a[layer], self.activation_function)
+    
+        final_linear_output = self.h[num_layers-1] @ self.weights[num_layers]
+        self.a[num_layers] = final_linear_output + self.biases[num_layers]
+        self.h[num_layers] = self.act.activation(self.a[num_layers], "softmax") # softmax for output layer
+    
+        output = self.h[num_layers]
+        return output
 
-    def backward_propagation(self, x, y_true, y_hat):
-        activation_derivative = self.derivative.derivatives(self.a[len(self.layers) - 1], "softmax")  
-        error_wrt_output = self.loss.last_output_derivative(y_hat, y_true, activation_derivative, self.loss_function)  # error at output
-
-        for layer in range(len(self.layers)-1, 1, -1):
-            self.grad_weights[layer] = np.dot(self.h[layer-1].T, error_wrt_output)  # gradient for weights
-            self.grad_biases[layer] = np.sum(error_wrt_output, axis=0, keepdims=True)  # gradient for biases
-            error_wrt_hidden = np.dot(error_wrt_output, self.weights[layer].T)  
-            error_wrt_output = error_wrt_hidden * self.derivative.derivatives(self.a[layer-1], self.activation_function)  
-
-        self.grad_weights[1] = np.dot(x.T, error_wrt_output)  
-        self.grad_biases[1] = np.sum(error_wrt_output, axis=0, keepdims=True)  
+    def backward_propagation(self, x, y_true, y_hat): 
+        output_layer_index = len(self.layers) - 1  # softmax derivative for output layer  
+        softmax_grad = self.derivative.derivatives(self.a[output_layer_index], "softmax")  
+        error = self.loss.last_output_derivative(y_hat, y_true, softmax_grad, self.loss_function)  
+    
+        # for hidden layers
+        for current_layer in reversed(range(2, len(self.layers))):  
+            prev_hidden = self.h[current_layer - 1]  
+    
+            self.grad_weights[current_layer] = prev_hidden.T @ error  
+            self.grad_biases[current_layer] = np.sum(error, axis=0, keepdims=True)  
+    
+            weight_matrix = self.weights[current_layer].T  
+            error_hidden = error @ weight_matrix  
+            deriv_activation = self.derivative.derivatives(self.a[current_layer - 1], self.activation_function)  
+            error = error_hidden * deriv_activation  
+    
+        input_grad_weights = x.T @ error  
+        input_grad_biases = np.sum(error, axis=0, keepdims=True)  
+        self.grad_weights[1] = input_grad_weights  
+        self.grad_biases[1] = input_grad_biases  
 
     def one_hot_matrix(self, labels):
         mat = np.zeros((labels.shape[0], 10)) 
@@ -105,27 +122,52 @@ class Neural_Network:
         return self.forward_propagation(data)  
 
         
-    def fit(self, batch_size, epochs, optimizer):
-        total_batches = int(np.ceil(self.input.shape[0] / batch_size))  # total batches
-        for epoch in range(epochs):
-            t = 1
-            for batch in range(total_batches):
-                batch_start, batch_end = batch * batch_size, (batch + 1) * batch_size 
-                image_set, label_set = self.input[batch_start:batch_end], self.y_true[batch_start:batch_end] 
-                y_hat = self.forward_propagation(image_set)  # forward pass
-                self.backward_propagation(image_set, self.one_hot_matrix(label_set), y_hat)  # backward pass
-                for layer in range(1, len(self.layers)):
-                    self.grad_weights[layer] /= batch_size  # normalize gradients
-                    self.grad_biases[layer] /= batch_size
-                optimizer.update_parameters(t)  # updated parameters
-                t += 1
-            
-            t_loss, t_acc = self.compute_performance(self.input, self.y_true)  # train performance
-            v_loss, v_acc = self.compute_performance(self.val_img, self.val_true)  # validation performance
-            
-            if self.wan_log:
-                wandb.log({'epoch': epoch + 1, 'train_loss': t_loss, 'train_acc': t_acc, 'val_loss': v_loss, 'val_acc': v_acc})  # log to wandb
-            if self.console_log:
-                print(f"Epoch {epoch+1}: Train Loss={t_loss:.4f}, Train Acc={t_acc:.2f}%, Val Loss={v_loss:.4f}, Val Acc={v_acc:.2f}%")  # console log
-        
-        return t_loss, t_acc, v_loss, v_acc 
+    def fit(self, batch_size, epochs, optimizer):  
+        num_samples = self.input.shape[0]  
+        num_mini_batches = int(np.ceil(num_samples / batch_size))  # total batches  
+    
+        for epoch_num in range(epochs):  
+            step_counter = 1  
+    
+            for iteration in range(num_mini_batches):  
+                start_idx = iteration * batch_size  
+                end_idx = min(start_idx + batch_size, num_samples)  
+                batch_images = self.input[start_idx:end_idx]  
+                batch_labels = self.y_true[start_idx:end_idx]  
+    
+                predictions = self.forward_propagation(batch_images)  # forward and backward pass  
+                true_labels_one_hot = self.one_hot_matrix(batch_labels)  
+                self.backward_propagation(batch_images, true_labels_one_hot, predictions)  
+     
+                for layer_idx in self.grad_weights.keys():  
+                    self.grad_weights[layer_idx] = self.grad_weights[layer_idx] / batch_size  
+                    self.grad_biases[layer_idx] = self.grad_biases[layer_idx] / batch_size  
+      
+                optimizer.update_parameters(step_counter)  
+                step_counter = step_counter + 1  
+    
+            training_loss, training_acc = self.compute_performance(self.input, self.y_true)  
+            val_loss, val_acc = self.compute_performance(self.val_img, self.val_true)  
+    
+            log_data = {  
+                'epoch': epoch_num + 1,  
+                'train_loss': training_loss,  
+                'train_acc': training_acc,  
+                'val_loss': val_loss,  
+                'val_acc': val_acc  
+            }  
+    
+            if self.wan_log:  
+                wandb.log(log_data)  # log to wandb  
+    
+            if self.console_log:  
+                status_msg = (  
+                    f"Epoch {epoch_num + 1}: "  
+                    f"Train Loss={training_loss:.4f}, "  
+                    f"Train Acc={training_acc:.2f}%, "  
+                    f"Val Loss={val_loss:.4f}, "  
+                    f"Val Acc={val_acc:.2f}%"  
+                )  
+                print(status_msg)  
+    
+        return training_loss, training_acc, val_loss, val_acc  

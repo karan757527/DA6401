@@ -1,0 +1,16 @@
+{"time":"2025-03-09T19:49:08.321533+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_194908-gei4rgz2/logs/debug-core.log"}
+{"time":"2025-03-09T19:49:08.433961+05:30","level":"INFO","msg":"created new stream","id":"gei4rgz2"}
+{"time":"2025-03-09T19:49:08.434039+05:30","level":"INFO","msg":"stream: started","id":"gei4rgz2"}
+{"time":"2025-03-09T19:49:08.434087+05:30","level":"INFO","msg":"handler: started","stream_id":"gei4rgz2"}
+{"time":"2025-03-09T19:49:08.434569+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gei4rgz2"}
+{"time":"2025-03-09T19:49:08.434645+05:30","level":"INFO","msg":"sender: started","stream_id":"gei4rgz2"}
+{"time":"2025-03-09T19:49:09.099317+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T19:49:15.147697+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T19:49:15.148846+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T19:49:16.154892+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.608310625,"progress":"1.2KB/1.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.285104167,"progress":"1.1KB/1.1KB"}],"total_operations":2}}
+{"time":"2025-03-09T19:49:16.878093+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T19:49:18.299606+05:30","level":"INFO","msg":"stream: closing","id":"gei4rgz2"}
+{"time":"2025-03-09T19:49:18.299721+05:30","level":"INFO","msg":"sender: closed","stream_id":"gei4rgz2"}
+{"time":"2025-03-09T19:49:18.299691+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gei4rgz2"}
+{"time":"2025-03-09T19:49:18.300013+05:30","level":"INFO","msg":"handler: closed","stream_id":"gei4rgz2"}
+{"time":"2025-03-09T19:49:18.300042+05:30","level":"INFO","msg":"stream: closed","id":"gei4rgz2"}

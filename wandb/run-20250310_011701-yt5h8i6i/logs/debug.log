@@ -1,0 +1,103 @@
+2025-03-10 01:17:01,985 INFO    MainThread:1078 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250310_011701-yt5h8i6i/logs/debug.log
+2025-03-10 01:17:01,985 INFO    MainThread:1078 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250310_011701-yt5h8i6i/logs/debug-internal.log
+2025-03-10 01:17:01,985 INFO    MainThread:1078 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x313116410>
+2025-03-10 01:17:01,985 INFO    MainThread:1078 [wandb_init.py:init():761] calling init triggers
+2025-03-10 01:17:01,985 INFO    MainThread:1078 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'sigmoid', 'batch_size': 32, 'dataset': 'fashion_mnist', 'epochs': 5, 'hidden_layer_sizes': 32, 'hidden_layers': 4, 'initialization': 'random', 'learning_rate': 0.001, 'optimizer': 'rmsprop', 'weight_decay': 0.5}
+config: {'_wandb': {}}
+2025-03-10 01:17:01,985 INFO    MainThread:1078 [wandb_init.py:init():784] starting backend
+2025-03-10 01:17:01,985 INFO    MainThread:1078 [wandb_init.py:init():788] sending inform_init request
+2025-03-10 01:17:01,988 INFO    MainThread:1078 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-03-10 01:17:01,999 INFO    MainThread:1078 [wandb_init.py:init():803] backend started and connected
+2025-03-10 01:17:02,005 INFO    MainThread:1078 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'sigmoid', 'batch_size': 32, 'dataset': 'fashion_mnist', 'epochs': 5, 'hidden_layer_sizes': 32, 'hidden_layers': 4, 'initialization': 'random', 'learning_rate': 0.001, 'optimizer': 'rmsprop', 'weight_decay': 0.5}
+2025-03-10 01:17:02,017 INFO    MainThread:1078 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-10 01:17:02,017 INFO    MainThread:1078 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-03-10 01:17:02,021 INFO    MainThread:1078 [wandb_init.py:init():896] updated telemetry
+2025-03-10 01:17:02,129 INFO    MainThread:1078 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-10 01:17:02,602 ERROR   MainThread:1078 [wandb_init.py:init():1481] error in wandb.init()
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1471, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 968, in init
+    raise error
+wandb.errors.errors.CommError: failed to upsert bucket: returned error 404 Not Found: {"errors":[{"message":"sweep wabdwa3l not found","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2025-03-10 01:19:05,518 INFO    MainThread:1078 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250310_011905-yt5h8i6i/logs/debug.log
+2025-03-10 01:19:05,518 INFO    MainThread:1078 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250310_011905-yt5h8i6i/logs/debug-internal.log
+2025-03-10 01:19:05,519 INFO    MainThread:1078 [wandb_init.py:init():761] calling init triggers
+2025-03-10 01:19:05,519 INFO    MainThread:1078 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'sigmoid', 'batch_size': 32, 'dataset': 'fashion_mnist', 'epochs': 5, 'hidden_layer_sizes': 32, 'hidden_layers': 4, 'initialization': 'random', 'learning_rate': 0.001, 'optimizer': 'rmsprop', 'weight_decay': 0.5}
+config: {'_wandb': {}}
+2025-03-10 01:19:05,519 INFO    MainThread:1078 [wandb_init.py:init():784] starting backend
+2025-03-10 01:19:05,519 INFO    MainThread:1078 [wandb_init.py:init():788] sending inform_init request
+2025-03-10 01:19:05,521 INFO    MainThread:1078 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-03-10 01:19:05,522 INFO    MainThread:1078 [wandb_init.py:init():803] backend started and connected
+2025-03-10 01:19:05,529 INFO    MainThread:1078 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'sigmoid', 'batch_size': 32, 'dataset': 'fashion_mnist', 'epochs': 5, 'hidden_layer_sizes': 32, 'hidden_layers': 4, 'initialization': 'random', 'learning_rate': 0.001, 'optimizer': 'rmsprop', 'weight_decay': 0.5}
+2025-03-10 01:19:05,541 INFO    MainThread:1078 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-10 01:19:05,542 INFO    MainThread:1078 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-03-10 01:19:05,542 INFO    MainThread:1078 [wandb_init.py:init():896] updated telemetry
+2025-03-10 01:19:05,605 INFO    MainThread:1078 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-10 01:19:54,410 WARNING MainThread:1078 [wandb_init.py:init():1475] interrupted
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1471, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 946, in init
+    result = wait_with_progress(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 23, in wait_with_progress
+    return wait_all_with_progress(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 86, in wait_all_with_progress
+    return asyncio_compat.run(progress_loop_with_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_compat.py", line 30, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+  File "/opt/anaconda3/lib/python3.11/threading.py", line 327, in wait
+    waiter.acquire()
+KeyboardInterrupt
+2025-03-10 01:23:48,910 WARNING MsgRouterThr:1078 [router.py:message_loop():77] message_loop has been closed
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/interface/router_sock.py", line 28, in _read_message
+    resp = self._sock_client.read_server_response(timeout=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 285, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 270, in _read_packet_bytes
+    raise SockClientClosedError
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/interface/router.py", line 70, in message_loop
+    msg = self._read_message()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/interface/router_sock.py", line 30, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-03-10 01:23:48,910 WARNING MsgRouterThr:1078 [router.py:message_loop():77] message_loop has been closed
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/interface/router_sock.py", line 28, in _read_message
+    resp = self._sock_client.read_server_response(timeout=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 285, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 270, in _read_packet_bytes
+    raise SockClientClosedError
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/interface/router.py", line 70, in message_loop
+    msg = self._read_message()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/wandb/sdk/interface/router_sock.py", line 30, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-03-10 01:23:48,913 INFO    MsgRouterThr:1078 [mailbox.py:close():115] Closing mailbox, abandoning 0 handles.
+2025-03-10 01:23:48,913 INFO    MsgRouterThr:1078 [mailbox.py:close():115] Closing mailbox, abandoning 2 handles.
