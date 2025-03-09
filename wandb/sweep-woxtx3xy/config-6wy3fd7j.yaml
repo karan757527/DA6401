@@ -1,0 +1,8 @@
+wandb_version: 1
+
+activation:
+  value: ReLU
+hidden_layer_sizes:
+  value: 64
+optimizer:
+  value: nadam

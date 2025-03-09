@@ -1,0 +1,8 @@
+wandb_version: 1
+
+activation:
+  value: sigmoid
+hidden_layer_sizes:
+  value: 32
+optimizer:
+  value: rmsprop

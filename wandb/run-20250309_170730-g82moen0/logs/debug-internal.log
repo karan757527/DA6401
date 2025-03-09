@@ -1,0 +1,16 @@
+{"time":"2025-03-09T17:07:30.398773+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250309_170730-g82moen0/logs/debug-core.log"}
+{"time":"2025-03-09T17:07:30.514438+05:30","level":"INFO","msg":"created new stream","id":"g82moen0"}
+{"time":"2025-03-09T17:07:30.514515+05:30","level":"INFO","msg":"stream: started","id":"g82moen0"}
+{"time":"2025-03-09T17:07:30.514531+05:30","level":"INFO","msg":"handler: started","stream_id":"g82moen0"}
+{"time":"2025-03-09T17:07:30.514735+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"g82moen0"}
+{"time":"2025-03-09T17:07:30.514759+05:30","level":"INFO","msg":"sender: started","stream_id":"g82moen0"}
+{"time":"2025-03-09T17:07:31.074746+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T17:07:32.615625+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T17:07:32.616542+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T17:07:33.621095+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.696713375},{"desc":"uploading config.yaml","runtime_seconds":0.385471875,"progress":"602B/602B"}],"total_operations":2}}
+{"time":"2025-03-09T17:07:33.852746+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T17:07:35.261109+05:30","level":"INFO","msg":"stream: closing","id":"g82moen0"}
+{"time":"2025-03-09T17:07:35.261207+05:30","level":"INFO","msg":"handler: closed","stream_id":"g82moen0"}
+{"time":"2025-03-09T17:07:35.261205+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"g82moen0"}
+{"time":"2025-03-09T17:07:35.261243+05:30","level":"INFO","msg":"sender: closed","stream_id":"g82moen0"}
+{"time":"2025-03-09T17:07:35.261461+05:30","level":"INFO","msg":"stream: closed","id":"g82moen0"}

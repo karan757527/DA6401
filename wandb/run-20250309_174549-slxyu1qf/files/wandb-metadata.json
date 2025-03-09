@@ -1,0 +1,14 @@
+{
+  "os":  "macOS-15.3-arm64-arm-64bit",
+  "python":  "CPython 3.11.7",
+  "startedAt":  "2025-03-09T12:15:49.338045Z",
+  "program":  "Sem 2/DL/Assignment 1/assignment.ipynb",
+  "git":  {
+    "remote":  "https://github.com/karan757527/DA6401.git",
+    "commit":  "b23dcf2f7925f748394685e42e8059a036621108"
+  },
+  "email":  "cs24m021@smail.iitm.ac.in",
+  "root":  "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1",
+  "host":  "Karans-Laptop.local",
+  "executable":  "/opt/anaconda3/bin/python"
+}
