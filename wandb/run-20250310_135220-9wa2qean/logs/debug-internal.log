@@ -1,0 +1,17 @@
+{"time":"2025-03-10T13:52:20.306844+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250310_135220-9wa2qean/logs/debug-core.log"}
+{"time":"2025-03-10T13:52:20.420462+05:30","level":"INFO","msg":"created new stream","id":"9wa2qean"}
+{"time":"2025-03-10T13:52:20.420513+05:30","level":"INFO","msg":"stream: started","id":"9wa2qean"}
+{"time":"2025-03-10T13:52:20.420536+05:30","level":"INFO","msg":"handler: started","stream_id":"9wa2qean"}
+{"time":"2025-03-10T13:52:20.420591+05:30","level":"INFO","msg":"sender: started","stream_id":"9wa2qean"}
+{"time":"2025-03-10T13:52:20.420629+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"9wa2qean"}
+{"time":"2025-03-10T13:52:20.833973+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T13:52:36.630775+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/cs24m021-iit-madras/DA6401_Assignment1/9wa2qean/file_stream\": read tcp 192.168.0.100:50690->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-03-10T13:53:17.040026+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T13:53:17.040957+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T13:53:18.047898+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.589897208,"progress":"817B/817B"},{"desc":"uploading config.yaml","runtime_seconds":0.284231625,"progress":"916B/916B"}],"total_operations":2}}
+{"time":"2025-03-10T13:53:18.79849+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T13:53:20.213807+05:30","level":"INFO","msg":"stream: closing","id":"9wa2qean"}
+{"time":"2025-03-10T13:53:20.21387+05:30","level":"INFO","msg":"handler: closed","stream_id":"9wa2qean"}
+{"time":"2025-03-10T13:53:20.213905+05:30","level":"INFO","msg":"sender: closed","stream_id":"9wa2qean"}
+{"time":"2025-03-10T13:53:20.213897+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"9wa2qean"}
+{"time":"2025-03-10T13:53:20.21419+05:30","level":"INFO","msg":"stream: closed","id":"9wa2qean"}

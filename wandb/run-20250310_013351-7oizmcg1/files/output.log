@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 82, in <module>
+    main()
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 74, in main
+    t_loss, t_acc, v_loss, v_acc = nn.fit(batch_size=args.batch_size, epochs=args.epochs, optimizer=opt)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py", line 138, in fit
+    predictions = self.forward_propagation(batch_images)  # forward and backward pass
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py", line 77, in forward_propagation
+    self.h[layer] = self.act.activation(self.a[layer], self.activation_function)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/activations.py", line 32, in activation
+    def activation(self, x, fun):
+
+KeyboardInterrupt

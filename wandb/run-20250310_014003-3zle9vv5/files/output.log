@@ -1,0 +1,21 @@
+Epoch 1: Train Loss=11.7335, Train Acc=28.54%, Val Loss=11.6844, Val Acc=28.97%
+Epoch 2: Train Loss=31.6682, Train Acc=8.31%, Val Loss=31.8102, Val Acc=7.90%
+Epoch 3: Train Loss=31.0536, Train Acc=10.09%, Val Loss=31.1079, Val Acc=9.93%
+Epoch 4: Train Loss=30.7926, Train Acc=10.85%, Val Loss=31.0158, Val Acc=10.20%
+Epoch 5: Train Loss=30.6250, Train Acc=11.33%, Val Loss=30.4920, Val Acc=11.72%
+Epoch 6: Train Loss=31.4412, Train Acc=8.97%, Val Loss=31.2979, Val Acc=9.38%
+Epoch 7: Train Loss=32.0079, Train Acc=7.33%, Val Loss=31.9599, Val Acc=7.47%
+Traceback (most recent call last):
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 82, in <module>
+    main()
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 74, in main
+    t_loss, t_acc, v_loss, v_acc = nn.fit(batch_size=args.batch_size, epochs=args.epochs, optimizer=opt)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py", line 146, in fit
+    optimizer.update_parameters(step_counter)
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/optimizers.py", line 28, in update_parameters
+    optimization_function(timestep)
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/optimizers.py", line 95, in adam
+    self.model.weights[l] -= self.learning_rate * mw_corrected / (np.sqrt(vw_corrected) + self.epsilon_val)  # update weights
+                                                                  ^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,22 @@
+Epoch 1: Train Loss=1.2696, Train Acc=41.63%, Val Loss=1.2676, Val Acc=41.93%
+Epoch 2: Train Loss=3.1330, Train Acc=9.97%, Val Loss=3.0970, Val Acc=10.30%
+Epoch 3: Train Loss=5.1076, Train Acc=9.99%, Val Loss=5.0388, Val Acc=10.13%
+Epoch 4: Train Loss=11.4311, Train Acc=10.02%, Val Loss=11.4849, Val Acc=9.83%
+Epoch 5: Train Loss=12.5865, Train Acc=9.99%, Val Loss=12.6034, Val Acc=10.13%
+Epoch 6: Train Loss=15.8316, Train Acc=10.05%, Val Loss=15.7775, Val Acc=9.58%
+Epoch 7: Train Loss=16.3450, Train Acc=10.05%, Val Loss=16.1892, Val Acc=9.58%
+Traceback (most recent call last):
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 82, in <module>
+    main()
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 74, in main
+    t_loss, t_acc, v_loss, v_acc = nn.fit(batch_size=args.batch_size, epochs=args.epochs, optimizer=opt)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py", line 140, in fit
+    self.backward_propagation(batch_images, true_labels_one_hot, predictions)
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py", line 96, in backward_propagation
+    self.grad_biases[current_layer] = np.sum(error, axis=0, keepdims=True)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/numpy/core/fromnumeric.py", line 2172, in _sum_dispatcher
+    def _sum_dispatcher(a, axis=None, dtype=None, out=None, keepdims=None,
+
+KeyboardInterrupt

@@ -1,0 +1,30 @@
+2025-03-10 01:44:22,008 INFO    MainThread:2012 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-03-10 01:44:22,008 INFO    MainThread:2012 [wandb_setup.py:_flush():67] Configure stats pid to 2012
+2025-03-10 01:44:22,008 INFO    MainThread:2012 [wandb_setup.py:_flush():67] Loading settings from /Users/karanagrawal/.config/wandb/settings
+2025-03-10 01:44:22,008 INFO    MainThread:2012 [wandb_setup.py:_flush():67] Loading settings from /Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/settings
+2025-03-10 01:44:22,008 INFO    MainThread:2012 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-10 01:44:22,008 INFO    MainThread:2012 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250310_014422-muwuoktc/logs/debug.log
+2025-03-10 01:44:22,008 INFO    MainThread:2012 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250310_014422-muwuoktc/logs/debug-internal.log
+2025-03-10 01:44:22,008 INFO    MainThread:2012 [wandb_init.py:init():761] calling init triggers
+2025-03-10 01:44:22,009 INFO    MainThread:2012 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'wandb_project': 'DA6401A1', 'wandb_entity': 'cs24m021-iit-madras', 'dataset': 'fashion_mnist', 'epochs': 15, 'batch_size': 64, 'loss': 'cross_entropy', 'optimizer': 'adam', 'learning_rate': 0.01, 'momentum': 0.5, 'beta': 0.5, 'beta1': 0.999, 'beta2': 0.9, 'epsilon': 1e-06, 'weight_decay': 0.0, 'weight_init': 'Xavier', 'num_layers': 4, 'hidden_size': 128, 'activation': 'ReLU', '_wandb': {}}
+2025-03-10 01:44:22,009 INFO    MainThread:2012 [wandb_init.py:init():784] starting backend
+2025-03-10 01:44:22,009 INFO    MainThread:2012 [wandb_init.py:init():788] sending inform_init request
+2025-03-10 01:44:22,031 INFO    MainThread:2012 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-03-10 01:44:22,031 INFO    MainThread:2012 [wandb_init.py:init():803] backend started and connected
+2025-03-10 01:44:22,035 INFO    MainThread:2012 [wandb_init.py:init():896] updated telemetry
+2025-03-10 01:44:22,061 INFO    MainThread:2012 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-10 01:44:22,533 INFO    MainThread:2012 [wandb_init.py:init():995] starting run threads in backend
+2025-03-10 01:44:22,818 INFO    MainThread:2012 [wandb_run.py:_console_start():2377] atexit reg
+2025-03-10 01:44:22,818 INFO    MainThread:2012 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-10 01:44:22,819 INFO    MainThread:2012 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-10 01:44:22,819 INFO    MainThread:2012 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-03-10 01:44:22,821 INFO    MainThread:2012 [wandb_init.py:init():1037] run started, returning control to user process
+2025-03-10 01:46:16,714 INFO    MainThread:2012 [wandb_run.py:_finish():2112] finishing run cs24m021-iit-madras/DA6401A1/muwuoktc
+2025-03-10 01:46:16,714 INFO    MainThread:2012 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-03-10 01:46:16,715 INFO    MainThread:2012 [wandb_run.py:_restore():2324] restore
+2025-03-10 01:46:16,715 INFO    MainThread:2012 [wandb_run.py:_restore():2330] restore done
+2025-03-10 01:46:20,089 INFO    MsgRouterThr:2012 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.
+2025-03-10 01:46:20,091 INFO    MainThread:2012 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-10 01:46:20,092 INFO    MainThread:2012 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-10 01:46:20,094 INFO    MainThread:2012 [wandb_run.py:_footer_sync_info():3919] logging synced files

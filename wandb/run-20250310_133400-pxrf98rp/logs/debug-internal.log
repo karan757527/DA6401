@@ -1,0 +1,16 @@
+{"time":"2025-03-10T13:34:00.261608+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250310_133400-pxrf98rp/logs/debug-core.log"}
+{"time":"2025-03-10T13:34:00.378026+05:30","level":"INFO","msg":"created new stream","id":"pxrf98rp"}
+{"time":"2025-03-10T13:34:00.37807+05:30","level":"INFO","msg":"stream: started","id":"pxrf98rp"}
+{"time":"2025-03-10T13:34:00.378091+05:30","level":"INFO","msg":"handler: started","stream_id":"pxrf98rp"}
+{"time":"2025-03-10T13:34:00.37814+05:30","level":"INFO","msg":"sender: started","stream_id":"pxrf98rp"}
+{"time":"2025-03-10T13:34:00.378241+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pxrf98rp"}
+{"time":"2025-03-10T13:34:00.716103+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T13:34:59.176712+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T13:34:59.17778+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T13:35:00.143256+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T13:35:00.192623+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 7-10, summary, console lines 7-10","runtime_seconds":0.048969875}],"total_operations":1}}
+{"time":"2025-03-10T13:35:01.490862+05:30","level":"INFO","msg":"stream: closing","id":"pxrf98rp"}
+{"time":"2025-03-10T13:35:01.490931+05:30","level":"INFO","msg":"handler: closed","stream_id":"pxrf98rp"}
+{"time":"2025-03-10T13:35:01.490966+05:30","level":"INFO","msg":"sender: closed","stream_id":"pxrf98rp"}
+{"time":"2025-03-10T13:35:01.490967+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pxrf98rp"}
+{"time":"2025-03-10T13:35:01.491182+05:30","level":"INFO","msg":"stream: closed","id":"pxrf98rp"}

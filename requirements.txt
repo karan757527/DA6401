@@ -5,3 +5,5 @@ keras
 tensorflow
 wandb
 argparse
+seaborn
+matplotlib

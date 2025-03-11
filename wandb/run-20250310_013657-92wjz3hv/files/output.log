@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 82, in <module>
+    main()
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 74, in main
+    t_loss, t_acc, v_loss, v_acc = nn.fit(batch_size=args.batch_size, epochs=args.epochs, optimizer=opt)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py", line 140, in fit
+    self.backward_propagation(batch_images, true_labels_one_hot, predictions)
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py", line 104, in backward_propagation
+    input_grad_biases = np.sum(error, axis=0, keepdims=True)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/numpy/core/fromnumeric.py", line 2172, in _sum_dispatcher
+    def _sum_dispatcher(a, axis=None, dtype=None, out=None, keepdims=None,
+
+KeyboardInterrupt

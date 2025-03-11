@@ -1,0 +1,16 @@
+{"time":"2025-03-10T13:22:58.467021+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250310_132258-cres4ksu/logs/debug-core.log"}
+{"time":"2025-03-10T13:22:58.580092+05:30","level":"INFO","msg":"created new stream","id":"cres4ksu"}
+{"time":"2025-03-10T13:22:58.580163+05:30","level":"INFO","msg":"stream: started","id":"cres4ksu"}
+{"time":"2025-03-10T13:22:58.5802+05:30","level":"INFO","msg":"handler: started","stream_id":"cres4ksu"}
+{"time":"2025-03-10T13:22:58.580181+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"cres4ksu"}
+{"time":"2025-03-10T13:22:58.580203+05:30","level":"INFO","msg":"sender: started","stream_id":"cres4ksu"}
+{"time":"2025-03-10T13:22:58.878718+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T13:25:53.820399+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T13:25:53.821642+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T13:25:54.840555+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.363811125,"progress":"817B/817B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.363774292,"progress":"236B/236B"}],"total_operations":2}}
+{"time":"2025-03-10T13:25:55.803528+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T13:25:57.23417+05:30","level":"INFO","msg":"stream: closing","id":"cres4ksu"}
+{"time":"2025-03-10T13:25:57.234255+05:30","level":"INFO","msg":"handler: closed","stream_id":"cres4ksu"}
+{"time":"2025-03-10T13:25:57.234288+05:30","level":"INFO","msg":"sender: closed","stream_id":"cres4ksu"}
+{"time":"2025-03-10T13:25:57.234273+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"cres4ksu"}
+{"time":"2025-03-10T13:25:57.234981+05:30","level":"INFO","msg":"stream: closed","id":"cres4ksu"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-10T15:26:53.981468+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250310_152653-gn56axxm/logs/debug-core.log"}
+{"time":"2025-03-10T15:26:54.094335+05:30","level":"INFO","msg":"created new stream","id":"gn56axxm"}
+{"time":"2025-03-10T15:26:54.094388+05:30","level":"INFO","msg":"stream: started","id":"gn56axxm"}
+{"time":"2025-03-10T15:26:54.094417+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gn56axxm"}
+{"time":"2025-03-10T15:26:54.09443+05:30","level":"INFO","msg":"handler: started","stream_id":"gn56axxm"}
+{"time":"2025-03-10T15:26:54.094421+05:30","level":"INFO","msg":"sender: started","stream_id":"gn56axxm"}
+{"time":"2025-03-10T15:26:54.422875+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T15:28:42.258897+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T15:28:42.262096+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T15:28:43.278315+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.315252,"progress":"817B/817B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.315207416,"progress":"247B/247B"},{"desc":"uploading config.yaml","runtime_seconds":0.005837167,"progress":"918B/918B"}],"total_operations":3}}
+{"time":"2025-03-10T15:28:43.618796+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T15:28:45.0096+05:30","level":"INFO","msg":"stream: closing","id":"gn56axxm"}
+{"time":"2025-03-10T15:28:45.00967+05:30","level":"INFO","msg":"handler: closed","stream_id":"gn56axxm"}
+{"time":"2025-03-10T15:28:45.009699+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gn56axxm"}
+{"time":"2025-03-10T15:28:45.009715+05:30","level":"INFO","msg":"sender: closed","stream_id":"gn56axxm"}
+{"time":"2025-03-10T15:28:45.00992+05:30","level":"INFO","msg":"stream: closed","id":"gn56axxm"}

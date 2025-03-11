@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 82, in <module>
+    main()
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 74, in main
+    t_loss, t_acc, v_loss, v_acc = nn.fit(batch_size=args.batch_size, epochs=args.epochs, optimizer=opt)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py", line 146, in fit
+    optimizer.update_parameters(step_counter)
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/optimizers.py", line 26, in update_parameters
+    optimization_function(timestep)
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/optimizers.py", line 84, in adam
+    grad_w = np.clip(self.model.grad_weights[l], -1e3, 1e3)
+             ^^
+NameError: name 'np' is not defined

@@ -1,0 +1,24 @@
+Epoch 1: Train Loss=2.3041, Train Acc=12.34%, Val Loss=2.3033, Val Acc=12.15%
+Epoch 2: Train Loss=2.3026, Train Acc=15.64%, Val Loss=2.3028, Val Acc=15.93%
+Epoch 3: Train Loss=2.3026, Train Acc=10.20%, Val Loss=2.3028, Val Acc=10.38%
+Epoch 4: Train Loss=2.3025, Train Acc=10.00%, Val Loss=2.3027, Val Acc=10.07%
+Epoch 5: Train Loss=2.3024, Train Acc=10.34%, Val Loss=2.3026, Val Acc=10.50%
+Traceback (most recent call last):
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 82, in <module>
+    main()
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 74, in main
+    t_loss, t_acc, v_loss, v_acc = nn.fit(batch_size=args.batch_size, epochs=args.epochs, optimizer=opt)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py", line 149, in fit
+    training_loss, training_acc = self.compute_performance(self.input, self.y_true)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py", line 114, in compute_performance
+    y_pred = self.forward_propagation(data)  # forward pass
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py", line 77, in forward_propagation
+    self.h[layer] = self.act.activation(self.a[layer], self.activation_function)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/activations.py", line 32, in activation
+    def activation(self, x, fun):
+
+KeyboardInterrupt

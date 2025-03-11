@@ -80,35 +80,61 @@ class Optimizer:
 
     def adam(self, step):
         for l in self.model.weights.keys():
-            decay_contribution = self.decay * self.model.weights[l]  # weight decay
+            decay_contribution = self.decay * self.model.weights[l] # weight decay
             self.model.grad_weights[l] += decay_contribution
-            m_w = self.beta1 * self.model.m_weights[l] + (1-self.beta1)*self.model.grad_weights[l]  # momentum update
-            m_b = self.beta1 * self.model.m_biases[l] + (1-self.beta1)*self.model.grad_biases[l]
-            v_w = self.beta2 * self.model.v_weights[l] + (1-self.beta2)*(self.model.grad_weights[l]**2)  # velocity update
-            v_b = self.beta2 * self.model.v_biases[l] + (1-self.beta2)*(self.model.grad_biases[l]**2)
+            
+            grad_w = np.clip(self.model.grad_weights[l], -1e3, 1e3)
+            grad_b = np.clip(self.model.grad_biases[l], -1e3, 1e3)
+            
+            m_w = self.beta1 * self.model.m_weights[l] + (1 - self.beta1) * grad_w # momentum update with numerical stability
+            m_b = self.beta1 * self.model.m_biases[l] + (1 - self.beta1) * grad_b
+            
+            v_w = self.beta2 * self.model.v_weights[l] + (1 - self.beta2) * (grad_w**2 + 1e-8)
+            v_b = self.beta2 * self.model.v_biases[l] + (1 - self.beta2) * (grad_b**2 + 1e-8)
+            
             self.model.m_weights[l], self.model.v_weights[l] = m_w, v_w
             self.model.m_biases[l], self.model.v_biases[l] = m_b, v_b
-            mw_corrected = m_w / (1 - self.beta1**step)  # bias correction
-            vw_corrected = v_w / (1 - self.beta2**step)
-            mb_corrected = m_b / (1 - self.beta1**step)
-            vb_corrected = v_b / (1 - self.beta2**step)
-            self.model.weights[l] -= self.learning_rate * mw_corrected / (np.sqrt(vw_corrected) + self.epsilon_val)  # update weights
-            self.model.biases[l] -= self.learning_rate * mb_corrected / (np.sqrt(vb_corrected) + self.epsilon_val)
+            
+            beta1_t = max(self.beta1**step, 1e-8)
+            beta2_t = max(self.beta2**step, 1e-8)
+            mw_corrected = m_w / (1 - beta1_t + 1e-8)
+            vw_corrected = v_w / (1 - beta2_t + 1e-8)
+            mb_corrected = m_b / (1 - beta1_t + 1e-8)
+            vb_corrected = v_b / (1 - beta2_t + 1e-8)
+            
+            weight_update = self.learning_rate * mw_corrected / (np.sqrt(vw_corrected) + self.epsilon_val)
+            bias_update = self.learning_rate * mb_corrected / (np.sqrt(vb_corrected) + self.epsilon_val)
+            
+            self.model.weights[l] -= np.clip(weight_update, -1e3, 1e3)
+            self.model.biases[l] -= np.clip(bias_update, -1e3, 1e3)
 
     def nadam(self, step):
         for l in self.model.weights.keys():
-            self.model.grad_weights[l] += self.model.weights[l] * self.decay  # weight decay
-            m_w_new = self.beta1 * self.model.m_weights[l] + (1-self.beta1)*self.model.grad_weights[l]  # momentum update
-            m_b_new = self.beta1 * self.model.m_biases[l] + (1-self.beta1)*self.model.grad_biases[l]
-            v_w_new = self.beta2 * self.model.v_weights[l] + (1-self.beta2)*(self.model.grad_weights[l]**2)  # velocity update
-            v_b_new = self.beta2 * self.model.v_biases[l] + (1-self.beta2)*(self.model.grad_biases[l]**2)
-            mw_hat = m_w_new / (1 - self.beta1**step)  # bias correction
-            vw_hat = v_w_new / (1 - self.beta2**step)
-            mb_hat = m_b_new / (1 - self.beta1**step)
-            vb_hat = v_b_new / (1 - self.beta2**step)
-            nesterov_w = self.beta1 * mw_hat + (1-self.beta1)*self.model.grad_weights[l]/(1-self.beta1**step)  # Nesterov component
-            nesterov_b = self.beta1 * mb_hat + (1-self.beta1)*self.model.grad_biases[l]/(1-self.beta1**step)
-            self.model.weights[l] -= self.learning_rate * nesterov_w / (np.sqrt(vw_hat) + self.epsilon_val)  # update weights
-            self.model.biases[l] -= self.learning_rate * nesterov_b / (np.sqrt(vb_hat) + self.epsilon_val)
+            self.model.grad_weights[l] += self.model.weights[l] * self.decay
+            grad_w = np.clip(self.model.grad_weights[l], -1e3, 1e3)
+            grad_b = np.clip(self.model.grad_biases[l], -1e3, 1e3)
+            
+            m_w_new = self.beta1 * self.model.m_weights[l] + (1-self.beta1)*grad_w
+            m_b_new = self.beta1 * self.model.m_biases[l] + (1-self.beta1)*grad_b
+
+            v_w_new = self.beta2 * self.model.v_weights[l] + (1-self.beta2)*(grad_w**2 + 1e-8)
+            v_b_new = self.beta2 * self.model.v_biases[l] + (1-self.beta2)*(grad_b**2 + 1e-8)
+            
+            beta1_t = max(self.beta1**step, 1e-8)
+            beta2_t = max(self.beta2**step, 1e-8)
+            mw_hat = m_w_new / (1 - beta1_t + 1e-8)
+            vw_hat = v_w_new / (1 - beta2_t + 1e-8)
+            mb_hat = m_b_new / (1 - beta1_t + 1e-8)
+            vb_hat = v_b_new / (1 - beta2_t + 1e-8)
+            
+            nesterov_w = self.beta1 * mw_hat + (1-self.beta1)*grad_w/(1 - beta1_t + 1e-8)
+            nesterov_b = self.beta1 * mb_hat + (1-self.beta1)*grad_b/(1 - beta1_t + 1e-8)
+            
+            weight_update = self.learning_rate * nesterov_w / (np.sqrt(vw_hat) + self.epsilon_val)
+            bias_update = self.learning_rate * nesterov_b / (np.sqrt(vb_hat) + self.epsilon_val)
+            
+            self.model.weights[l] -= np.clip(weight_update, -1e3, 1e3)
+            self.model.biases[l] -= np.clip(bias_update, -1e3, 1e3)
+            
             self.model.m_weights[l], self.model.v_weights[l] = m_w_new, v_w_new
             self.model.m_biases[l], self.model.v_biases[l] = m_b_new, v_b_new

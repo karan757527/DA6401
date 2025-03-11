@@ -1,0 +1,21 @@
+Epoch 1: Train Loss=1.0279, Train Acc=58.17%, Val Loss=1.0335, Val Acc=57.95%
+Epoch 2: Train Loss=1.9430, Train Acc=38.70%, Val Loss=1.9382, Val Acc=39.17%
+Epoch 3: Train Loss=2.2759, Train Acc=24.59%, Val Loss=2.3166, Val Acc=24.43%
+Epoch 4: Train Loss=6.9297, Train Acc=10.22%, Val Loss=6.8072, Val Acc=10.38%
+Traceback (most recent call last):
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 82, in <module>
+    main()
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 74, in main
+    t_loss, t_acc, v_loss, v_acc = nn.fit(batch_size=args.batch_size, epochs=args.epochs, optimizer=opt)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py", line 146, in fit
+    optimizer.update_parameters(step_counter)
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/optimizers.py", line 28, in update_parameters
+    optimization_function(timestep)
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/optimizers.py", line 109, in adam
+    self.model.biases[l] -= np.clip(bias_update, -1e3, 1e3)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/numpy/core/fromnumeric.py", line 2096, in _clip_dispatcher
+    def _clip_dispatcher(a, a_min, a_max, out=None, **kwargs):
+
+KeyboardInterrupt

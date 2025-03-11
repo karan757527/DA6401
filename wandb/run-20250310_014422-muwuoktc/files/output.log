@@ -1,0 +1,24 @@
+Epoch 1: Train Loss=28.2873, Train Acc=18.10%, Val Loss=28.2757, Val Acc=18.13%
+Epoch 2: Train Loss=33.9785, Train Acc=1.62%, Val Loss=33.9746, Val Acc=1.63%
+Epoch 3: Train Loss=30.6743, Train Acc=11.19%, Val Loss=30.5898, Val Acc=11.43%
+Epoch 4: Train Loss=32.7031, Train Acc=5.31%, Val Loss=32.6219, Val Acc=5.55%
+Epoch 5: Train Loss=31.3286, Train Acc=9.29%, Val Loss=31.3957, Val Acc=9.10%
+Epoch 6: Train Loss=31.1661, Train Acc=9.76%, Val Loss=31.3036, Val Acc=9.37%
+Epoch 7: Train Loss=31.1911, Train Acc=9.69%, Val Loss=31.0907, Val Acc=9.98%
+/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/optimizers.py:87: RuntimeWarning: overflow encountered in square
+  v_w = self.beta2 * self.model.v_weights[l] + (1-self.beta2)*(self.model.grad_weights[l]**2)  # velocity update
+/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/optimizers.py:88: RuntimeWarning: overflow encountered in square
+  v_b = self.beta2 * self.model.v_biases[l] + (1-self.beta2)*(self.model.grad_biases[l]**2)
+Epoch 8: Train Loss=33.5167, Train Acc=2.96%, Val Loss=33.5429, Val Acc=2.88%
+Epoch 9: Train Loss=31.0804, Train Acc=10.01%, Val Loss=31.1252, Val Acc=9.88%
+/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/optimizers.py:92: RuntimeWarning: overflow encountered in divide
+  vw_corrected = v_w / (1 - self.beta2**step)
+Epoch 10: Train Loss=28.9844, Train Acc=16.08%, Val Loss=29.1219, Val Acc=15.68%
+/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py:101: RuntimeWarning: invalid value encountered in multiply
+  error = error_hidden * deriv_activation
+Epoch 11: Train Loss=nan, Train Acc=10.02%, Val Loss=nan, Val Acc=9.80%
+Epoch 12: Train Loss=nan, Train Acc=10.02%, Val Loss=nan, Val Acc=9.80%
+Epoch 13: Train Loss=nan, Train Acc=10.02%, Val Loss=nan, Val Acc=9.80%
+Epoch 14: Train Loss=nan, Train Acc=10.02%, Val Loss=nan, Val Acc=9.80%
+Epoch 15: Train Loss=nan, Train Acc=10.02%, Val Loss=nan, Val Acc=9.80%
+Test Loss: nan, Test Acc: 10.00%

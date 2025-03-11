@@ -1,0 +1,33 @@
+Epoch 1: Train Loss=32.0322, Train Acc=7.26%, Val Loss=32.0577, Val Acc=7.18%
+Epoch 2: Train Loss=31.0689, Train Acc=10.05%, Val Loss=31.2288, Val Acc=9.58%
+Epoch 3: Train Loss=31.0798, Train Acc=10.01%, Val Loss=31.1425, Val Acc=9.83%
+Epoch 4: Train Loss=32.3865, Train Acc=6.23%, Val Loss=32.4377, Val Acc=6.08%
+Epoch 5: Train Loss=31.0491, Train Acc=10.10%, Val Loss=31.2979, Val Acc=9.38%
+Epoch 6: Train Loss=31.1086, Train Acc=9.93%, Val Loss=31.0331, Val Acc=10.15%
+Epoch 7: Train Loss=31.5013, Train Acc=8.79%, Val Loss=31.4360, Val Acc=8.98%
+/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/optimizers.py:87: RuntimeWarning: overflow encountered in square
+  v_w = self.beta2 * self.model.v_weights[l] + (1-self.beta2)*(self.model.grad_weights[l]**2)  # velocity update
+/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/optimizers.py:88: RuntimeWarning: overflow encountered in square
+  v_b = self.beta2 * self.model.v_biases[l] + (1-self.beta2)*(self.model.grad_biases[l]**2)
+Epoch 8: Train Loss=31.0804, Train Acc=10.01%, Val Loss=31.1425, Val Acc=9.83%
+Epoch 9: Train Loss=31.0785, Train Acc=10.02%, Val Loss=31.1425, Val Acc=9.83%
+Epoch 10: Train Loss=31.0798, Train Acc=10.01%, Val Loss=31.1425, Val Acc=9.83%
+Epoch 11: Train Loss=31.0798, Train Acc=10.01%, Val Loss=31.1425, Val Acc=9.83%
+/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py:101: RuntimeWarning: invalid value encountered in multiply
+  error = error_hidden * deriv_activation
+Traceback (most recent call last):
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 82, in <module>
+    main()
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 74, in main
+    t_loss, t_acc, v_loss, v_acc = nn.fit(batch_size=args.batch_size, epochs=args.epochs, optimizer=opt)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py", line 138, in fit
+    predictions = self.forward_propagation(batch_images)  # forward and backward pass
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py", line 77, in forward_propagation
+    self.h[layer] = self.act.activation(self.a[layer], self.activation_function)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/activations.py", line 32, in activation
+    def activation(self, x, fun):
+
+KeyboardInterrupt

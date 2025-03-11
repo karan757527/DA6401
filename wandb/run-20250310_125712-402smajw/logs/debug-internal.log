@@ -1,0 +1,17 @@
+{"time":"2025-03-10T12:57:12.582787+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250310_125712-402smajw/logs/debug-core.log"}
+{"time":"2025-03-10T12:57:12.699028+05:30","level":"INFO","msg":"created new stream","id":"402smajw"}
+{"time":"2025-03-10T12:57:12.699085+05:30","level":"INFO","msg":"stream: started","id":"402smajw"}
+{"time":"2025-03-10T12:57:12.699096+05:30","level":"INFO","msg":"handler: started","stream_id":"402smajw"}
+{"time":"2025-03-10T12:57:12.699132+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"402smajw"}
+{"time":"2025-03-10T12:57:12.699119+05:30","level":"INFO","msg":"sender: started","stream_id":"402smajw"}
+{"time":"2025-03-10T12:57:13.074976+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T13:10:19.309443+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:50288->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-03-10T13:17:28.38412+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T13:17:28.385615+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T13:17:29.400623+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.367699458,"progress":"817B/817B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.367647583,"progress":"263B/263B"},{"desc":"uploading config.yaml","runtime_seconds":0.077307208,"progress":"923B/923B"}],"total_operations":3}}
+{"time":"2025-03-10T13:17:30.772251+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T13:17:32.200797+05:30","level":"INFO","msg":"stream: closing","id":"402smajw"}
+{"time":"2025-03-10T13:17:32.200892+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"402smajw"}
+{"time":"2025-03-10T13:17:32.200918+05:30","level":"INFO","msg":"sender: closed","stream_id":"402smajw"}
+{"time":"2025-03-10T13:17:32.201111+05:30","level":"INFO","msg":"handler: closed","stream_id":"402smajw"}
+{"time":"2025-03-10T13:17:32.201771+05:30","level":"INFO","msg":"stream: closed","id":"402smajw"}

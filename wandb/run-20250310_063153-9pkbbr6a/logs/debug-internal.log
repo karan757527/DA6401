@@ -1,0 +1,23 @@
+{"time":"2025-03-10T06:31:53.594424+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250310_063153-9pkbbr6a/logs/debug-core.log"}
+{"time":"2025-03-10T06:31:53.712092+05:30","level":"INFO","msg":"created new stream","id":"9pkbbr6a"}
+{"time":"2025-03-10T06:31:53.712137+05:30","level":"INFO","msg":"stream: started","id":"9pkbbr6a"}
+{"time":"2025-03-10T06:31:53.712169+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"9pkbbr6a"}
+{"time":"2025-03-10T06:31:53.71218+05:30","level":"INFO","msg":"sender: started","stream_id":"9pkbbr6a"}
+{"time":"2025-03-10T06:31:53.712248+05:30","level":"INFO","msg":"handler: started","stream_id":"9pkbbr6a"}
+{"time":"2025-03-10T06:31:54.0906+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T06:50:28.835489+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:50157->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-03-10T07:55:39.686462+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:50163->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-03-10T09:16:05.707987+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:50167->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-03-10T09:49:26.915469+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": write tcp 192.168.0.100:50170->35.186.228.49:443: write: broken pipe"}
+{"time":"2025-03-10T10:36:24.162046+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:50174->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-03-10T10:58:57.545097+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:50177->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-03-10T12:41:25.053136+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:50180->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-03-10T12:49:19.296582+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T12:49:19.298207+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T12:49:20.306465+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.113695167,"progress":"817B/817B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.113649375,"progress":"252B/252B"}],"total_operations":2}}
+{"time":"2025-03-10T12:49:20.838067+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T12:49:22.187875+05:30","level":"INFO","msg":"stream: closing","id":"9pkbbr6a"}
+{"time":"2025-03-10T12:49:22.18795+05:30","level":"INFO","msg":"handler: closed","stream_id":"9pkbbr6a"}
+{"time":"2025-03-10T12:49:22.187986+05:30","level":"INFO","msg":"sender: closed","stream_id":"9pkbbr6a"}
+{"time":"2025-03-10T12:49:22.187967+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"9pkbbr6a"}
+{"time":"2025-03-10T12:49:22.188283+05:30","level":"INFO","msg":"stream: closed","id":"9pkbbr6a"}

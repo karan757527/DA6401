@@ -1,0 +1,22 @@
+Epoch 1: Train Loss=2.7587, Train Acc=10.00%, Val Loss=2.7767, Val Acc=10.18%
+Epoch 2: Train Loss=30.7293, Train Acc=11.03%, Val Loss=30.8546, Val Acc=10.67%
+Epoch 3: Train Loss=31.0798, Train Acc=10.01%, Val Loss=31.1194, Val Acc=9.90%
+Epoch 4: Train Loss=31.0964, Train Acc=9.97%, Val Loss=30.9813, Val Acc=10.30%
+Epoch 5: Train Loss=31.0964, Train Acc=9.97%, Val Loss=30.9813, Val Acc=10.30%
+Epoch 6: Train Loss=31.0964, Train Acc=9.97%, Val Loss=30.9813, Val Acc=10.30%
+Epoch 7: Train Loss=31.0804, Train Acc=10.01%, Val Loss=31.1252, Val Acc=9.88%
+Epoch 8: Train Loss=31.0804, Train Acc=10.01%, Val Loss=31.1252, Val Acc=9.88%
+Traceback (most recent call last):
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 82, in <module>
+    main()
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py", line 74, in main
+    t_loss, t_acc, v_loss, v_acc = nn.fit(batch_size=args.batch_size, epochs=args.epochs, optimizer=opt)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/neural_network.py", line 146, in fit
+    optimizer.update_parameters(step_counter)
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/optimizers.py", line 28, in update_parameters
+    optimization_function(timestep)
+  File "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/optimizers.py", line 98, in adam
+    beta1_t = max(self.beta1**step, 1e-8)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

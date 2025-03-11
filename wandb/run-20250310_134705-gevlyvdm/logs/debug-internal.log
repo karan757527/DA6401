@@ -1,0 +1,16 @@
+{"time":"2025-03-10T13:47:05.148073+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250310_134705-gevlyvdm/logs/debug-core.log"}
+{"time":"2025-03-10T13:47:05.270709+05:30","level":"INFO","msg":"created new stream","id":"gevlyvdm"}
+{"time":"2025-03-10T13:47:05.270766+05:30","level":"INFO","msg":"stream: started","id":"gevlyvdm"}
+{"time":"2025-03-10T13:47:05.270793+05:30","level":"INFO","msg":"sender: started","stream_id":"gevlyvdm"}
+{"time":"2025-03-10T13:47:05.270808+05:30","level":"INFO","msg":"handler: started","stream_id":"gevlyvdm"}
+{"time":"2025-03-10T13:47:05.270787+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gevlyvdm"}
+{"time":"2025-03-10T13:47:05.784799+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T13:49:54.639751+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T13:49:54.640958+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T13:49:55.650725+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.339420375,"progress":"817B/817B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.339375166,"progress":"235B/235B"},{"desc":"uploading config.yaml","runtime_seconds":0.045265916,"progress":"920B/920B"}],"total_operations":3}}
+{"time":"2025-03-10T13:49:56.003493+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T13:49:57.323141+05:30","level":"INFO","msg":"stream: closing","id":"gevlyvdm"}
+{"time":"2025-03-10T13:49:57.323203+05:30","level":"INFO","msg":"handler: closed","stream_id":"gevlyvdm"}
+{"time":"2025-03-10T13:49:57.32323+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gevlyvdm"}
+{"time":"2025-03-10T13:49:57.32329+05:30","level":"INFO","msg":"sender: closed","stream_id":"gevlyvdm"}
+{"time":"2025-03-10T13:49:57.323462+05:30","level":"INFO","msg":"stream: closed","id":"gevlyvdm"}

@@ -1,0 +1,1 @@
+{"train_loss":NaN,"train_acc":10.022222222222222,"_timestamp":1.741551376713696e+09,"epoch":15,"val_acc":9.8,"_runtime":114.681964,"_wandb":{"runtime":114},"val_loss":NaN,"_step":15,"test_accuracy":10}
