@@ -1,0 +1,60 @@
+_wandb:
+    value:
+        cli_version: 0.19.7
+        m: []
+        python_version: 3.11.7
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+                - 55
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+                - 55
+            "3":
+                - 2
+                - 13
+                - 23
+                - 55
+            "4": 3.11.7
+            "5": 0.19.7
+            "8":
+                - 5
+            "12": 0.19.7
+            "13": darwin-arm64
+        visualize:
+            conf_mat:
+                panel_config:
+                    fieldSettings:
+                        Actual: Actual
+                        Predicted: Predicted
+                        nPredictions: nPredictions
+                    panelDefId: wandb/confusion_matrix/v1
+                    stringSettings:
+                        title: Confusion Matrix Curve
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: conf_mat_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2

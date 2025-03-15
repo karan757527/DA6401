@@ -1,0 +1,16 @@
+{"time":"2025-03-15T23:32:07.055257+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250315_233207-et4bcsdg/logs/debug-core.log"}
+{"time":"2025-03-15T23:32:07.172969+05:30","level":"INFO","msg":"created new stream","id":"et4bcsdg"}
+{"time":"2025-03-15T23:32:07.173052+05:30","level":"INFO","msg":"stream: started","id":"et4bcsdg"}
+{"time":"2025-03-15T23:32:07.173132+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"et4bcsdg"}
+{"time":"2025-03-15T23:32:07.173184+05:30","level":"INFO","msg":"sender: started","stream_id":"et4bcsdg"}
+{"time":"2025-03-15T23:32:07.173216+05:30","level":"INFO","msg":"handler: started","stream_id":"et4bcsdg"}
+{"time":"2025-03-15T23:32:07.552337+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T23:32:47.993962+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T23:32:47.996658+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T23:32:49.634383+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T23:38:28.292877+05:30","level":"INFO","msg":"stream: closing","id":"et4bcsdg"}
+{"time":"2025-03-15T23:38:28.293013+05:30","level":"INFO","msg":"handler: closed","stream_id":"et4bcsdg"}
+{"time":"2025-03-15T23:38:28.293032+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"et4bcsdg"}
+{"time":"2025-03-15T23:38:28.293125+05:30","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2025-03-15T23:38:28.293152+05:30","level":"INFO","msg":"sender: closed","stream_id":"et4bcsdg"}
+{"time":"2025-03-15T23:38:28.293187+05:30","level":"INFO","msg":"stream: closed","id":"et4bcsdg"}

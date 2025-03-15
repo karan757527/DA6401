@@ -1,0 +1,31 @@
+2025-03-15 23:37:03,183 INFO    MainThread:25425 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-03-15 23:37:03,184 INFO    MainThread:25425 [wandb_setup.py:_flush():67] Configure stats pid to 25425
+2025-03-15 23:37:03,184 INFO    MainThread:25425 [wandb_setup.py:_flush():67] Loading settings from /Users/karanagrawal/.config/wandb/settings
+2025-03-15 23:37:03,184 INFO    MainThread:25425 [wandb_setup.py:_flush():67] Loading settings from /Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/settings
+2025-03-15 23:37:03,184 INFO    MainThread:25425 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-15 23:37:03,185 INFO    MainThread:25425 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250315_233703-wvhmw012/logs/debug.log
+2025-03-15 23:37:03,185 INFO    MainThread:25425 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250315_233703-wvhmw012/logs/debug-internal.log
+2025-03-15 23:37:03,185 INFO    MainThread:25425 [wandb_init.py:init():761] calling init triggers
+2025-03-15 23:37:03,185 INFO    MainThread:25425 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-15 23:37:03,185 INFO    MainThread:25425 [wandb_init.py:init():784] starting backend
+2025-03-15 23:37:03,185 INFO    MainThread:25425 [wandb_init.py:init():788] sending inform_init request
+2025-03-15 23:37:03,225 INFO    MainThread:25425 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-03-15 23:37:03,226 INFO    MainThread:25425 [wandb_init.py:init():803] backend started and connected
+2025-03-15 23:37:03,237 INFO    MainThread:25425 [wandb_init.py:init():896] updated telemetry
+2025-03-15 23:37:03,286 INFO    MainThread:25425 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-15 23:37:03,793 INFO    MainThread:25425 [wandb_init.py:init():995] starting run threads in backend
+2025-03-15 23:37:04,172 INFO    MainThread:25425 [wandb_run.py:_console_start():2377] atexit reg
+2025-03-15 23:37:04,173 INFO    MainThread:25425 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-15 23:37:04,175 INFO    MainThread:25425 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-15 23:37:04,175 INFO    MainThread:25425 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-03-15 23:37:04,178 INFO    MainThread:25425 [wandb_init.py:init():1037] run started, returning control to user process
+2025-03-15 23:37:04,321 INFO    MainThread:25425 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2025-03-15 23:37:05,507 INFO    MainThread:25425 [wandb_run.py:_finish():2112] finishing run cs24m021-iit-madras/DA6401Assignment1/wvhmw012
+2025-03-15 23:37:05,508 INFO    MainThread:25425 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-03-15 23:37:05,509 INFO    MainThread:25425 [wandb_run.py:_restore():2324] restore
+2025-03-15 23:37:05,509 INFO    MainThread:25425 [wandb_run.py:_restore():2330] restore done
+2025-03-15 23:37:09,100 INFO    MsgRouterThr:25425 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.
+2025-03-15 23:37:09,102 INFO    MainThread:25425 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-15 23:37:09,102 INFO    MainThread:25425 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-15 23:37:09,103 INFO    MainThread:25425 [wandb_run.py:_footer_sync_info():3919] logging synced files

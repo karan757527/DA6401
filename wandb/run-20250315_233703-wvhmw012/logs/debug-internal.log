@@ -1,0 +1,16 @@
+{"time":"2025-03-15T23:37:03.227093+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250315_233703-wvhmw012/logs/debug-core.log"}
+{"time":"2025-03-15T23:37:03.340783+05:30","level":"INFO","msg":"created new stream","id":"wvhmw012"}
+{"time":"2025-03-15T23:37:03.341354+05:30","level":"INFO","msg":"stream: started","id":"wvhmw012"}
+{"time":"2025-03-15T23:37:03.341534+05:30","level":"INFO","msg":"handler: started","stream_id":"wvhmw012"}
+{"time":"2025-03-15T23:37:03.341492+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wvhmw012"}
+{"time":"2025-03-15T23:37:03.341557+05:30","level":"INFO","msg":"sender: started","stream_id":"wvhmw012"}
+{"time":"2025-03-15T23:37:03.795658+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T23:37:05.510329+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T23:37:05.512306+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T23:37:06.520297+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-wvhmw012-conf_mat_table","runtime_seconds":1.696757083,"subtasks":[{"desc":"conf_mat_table.table.json","runtime_seconds":0.384866792,"progress":"3.3KB/3.3KB"}]},{"desc":"uploading output.log","runtime_seconds":0.692881542,"progress":"18B/18B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.692863125,"progress":"717B/717B"},{"desc":"uploading config.yaml","runtime_seconds":0.417958833,"progress":"1.9KB/1.9KB"}],"total_operations":4}}
+{"time":"2025-03-15T23:37:07.736247+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T23:37:09.105419+05:30","level":"INFO","msg":"stream: closing","id":"wvhmw012"}
+{"time":"2025-03-15T23:37:09.105498+05:30","level":"INFO","msg":"handler: closed","stream_id":"wvhmw012"}
+{"time":"2025-03-15T23:37:09.105529+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"wvhmw012"}
+{"time":"2025-03-15T23:37:09.10554+05:30","level":"INFO","msg":"sender: closed","stream_id":"wvhmw012"}
+{"time":"2025-03-15T23:37:09.10586+05:30","level":"INFO","msg":"stream: closed","id":"wvhmw012"}

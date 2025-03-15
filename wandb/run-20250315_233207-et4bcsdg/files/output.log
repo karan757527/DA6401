@@ -1,0 +1,9 @@
+Epoch 1: Train Loss=1.5617, Train Acc=55.29%, Val Loss=1.6324, Val Acc=54.42%
+Epoch 2: Train Loss=1.2015, Train Acc=59.61%, Val Loss=1.2538, Val Acc=57.98%
+Epoch 3: Train Loss=1.0251, Train Acc=63.33%, Val Loss=1.0652, Val Acc=62.60%
+Epoch 4: Train Loss=0.9280, Train Acc=66.46%, Val Loss=0.9611, Val Acc=65.85%
+Epoch 5: Train Loss=0.8485, Train Acc=69.19%, Val Loss=0.8860, Val Acc=68.15%
+Epoch 6: Train Loss=0.7910, Train Acc=71.41%, Val Loss=0.8332, Val Acc=70.40%
+Epoch 7: Train Loss=0.7425, Train Acc=72.89%, Val Loss=0.7883, Val Acc=71.92%
+Epoch 8: Train Loss=0.7066, Train Acc=74.22%, Val Loss=0.7468, Val Acc=73.17%
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
