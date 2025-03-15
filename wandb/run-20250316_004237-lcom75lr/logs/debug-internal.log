@@ -1,0 +1,16 @@
+{"time":"2025-03-16T00:42:37.141262+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250316_004237-lcom75lr/logs/debug-core.log"}
+{"time":"2025-03-16T00:42:37.257366+05:30","level":"INFO","msg":"created new stream","id":"lcom75lr"}
+{"time":"2025-03-16T00:42:37.257419+05:30","level":"INFO","msg":"stream: started","id":"lcom75lr"}
+{"time":"2025-03-16T00:42:37.257425+05:30","level":"INFO","msg":"handler: started","stream_id":"lcom75lr"}
+{"time":"2025-03-16T00:42:37.257446+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"lcom75lr"}
+{"time":"2025-03-16T00:42:37.257461+05:30","level":"INFO","msg":"sender: started","stream_id":"lcom75lr"}
+{"time":"2025-03-16T00:42:37.63829+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T00:46:03.828703+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T00:46:03.83061+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T00:46:04.837664+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.252661708,"progress":"807B/807B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.252585666,"progress":"246B/246B"}],"total_operations":2}}
+{"time":"2025-03-16T00:46:05.304923+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T00:46:06.730222+05:30","level":"INFO","msg":"stream: closing","id":"lcom75lr"}
+{"time":"2025-03-16T00:46:06.730315+05:30","level":"INFO","msg":"handler: closed","stream_id":"lcom75lr"}
+{"time":"2025-03-16T00:46:06.730357+05:30","level":"INFO","msg":"sender: closed","stream_id":"lcom75lr"}
+{"time":"2025-03-16T00:46:06.73034+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"lcom75lr"}
+{"time":"2025-03-16T00:46:06.731268+05:30","level":"INFO","msg":"stream: closed","id":"lcom75lr"}

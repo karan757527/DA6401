@@ -1,0 +1,16 @@
+{"time":"2025-03-16T00:58:54.028644+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250316_005854-rxly4nui/logs/debug-core.log"}
+{"time":"2025-03-16T00:58:54.145652+05:30","level":"INFO","msg":"created new stream","id":"rxly4nui"}
+{"time":"2025-03-16T00:58:54.145704+05:30","level":"INFO","msg":"stream: started","id":"rxly4nui"}
+{"time":"2025-03-16T00:58:54.145709+05:30","level":"INFO","msg":"handler: started","stream_id":"rxly4nui"}
+{"time":"2025-03-16T00:58:54.145714+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rxly4nui"}
+{"time":"2025-03-16T00:58:54.145787+05:30","level":"INFO","msg":"sender: started","stream_id":"rxly4nui"}
+{"time":"2025-03-16T00:58:54.46676+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T00:59:21.042595+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T00:59:21.044195+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T00:59:22.057137+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.1958665,"progress":"916B/916B"}],"total_operations":1}}
+{"time":"2025-03-16T00:59:22.235503+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T00:59:23.59981+05:30","level":"INFO","msg":"stream: closing","id":"rxly4nui"}
+{"time":"2025-03-16T00:59:23.599903+05:30","level":"INFO","msg":"handler: closed","stream_id":"rxly4nui"}
+{"time":"2025-03-16T00:59:23.599953+05:30","level":"INFO","msg":"sender: closed","stream_id":"rxly4nui"}
+{"time":"2025-03-16T00:59:23.599932+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rxly4nui"}
+{"time":"2025-03-16T00:59:23.600311+05:30","level":"INFO","msg":"stream: closed","id":"rxly4nui"}

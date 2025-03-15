@@ -1,0 +1,2 @@
+Epoch 1: Train Loss=0.9003, Train Acc=9.97%, Val Loss=0.8923, Val Acc=10.77%
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
