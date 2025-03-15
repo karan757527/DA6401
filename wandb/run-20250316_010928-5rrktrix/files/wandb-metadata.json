@@ -1,0 +1,68 @@
+{
+  "os":  "macOS-15.3-arm64-arm-64bit",
+  "python":  "CPython 3.11.7",
+  "startedAt":  "2025-03-15T19:39:28.937712Z",
+  "args":  [
+    "-wp",
+    "DA6401A1",
+    "-e",
+    "15",
+    "-b",
+    "64",
+    "-o",
+    "adam",
+    "-lr",
+    "0.001",
+    "-beta1",
+    "0.999",
+    "-beta2",
+    "0.9",
+    "-w_i",
+    "Xavier",
+    "-nhl",
+    "4",
+    "-sz",
+    "128",
+    "-a",
+    "sigmoid"
+  ],
+  "program":  "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/karan757527/DA6401.git",
+    "commit":  "717f8a384fb3817144e546f75c7fdd3e22fd945b"
+  },
+  "email":  "cs24m021@smail.iitm.ac.in",
+  "root":  "/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1",
+  "host":  "Karans-Laptop.local",
+  "executable":  "/opt/anaconda3/bin/python",
+  "codePathLocal":  "train.py",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "135172149248"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "245107195904",
+      "used":  "135172149248"
+    }
+  },
+  "memory":  {
+    "total":  "8589934592"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  },
+  "apple":  {
+    "name":  "Apple M2",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  8,
+    "memoryGb":  8,
+    "swapTotalBytes":  "5368709120",
+    "ramTotalBytes":  "8589934592"
+  }
+}

@@ -1,0 +1,16 @@
+{"time":"2025-03-16T01:09:28.947841+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250316_010928-5rrktrix/logs/debug-core.log"}
+{"time":"2025-03-16T01:09:29.086771+05:30","level":"INFO","msg":"created new stream","id":"5rrktrix"}
+{"time":"2025-03-16T01:09:29.087231+05:30","level":"INFO","msg":"stream: started","id":"5rrktrix"}
+{"time":"2025-03-16T01:09:29.08776+05:30","level":"INFO","msg":"handler: started","stream_id":"5rrktrix"}
+{"time":"2025-03-16T01:09:29.087839+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"5rrktrix"}
+{"time":"2025-03-16T01:09:29.088069+05:30","level":"INFO","msg":"sender: started","stream_id":"5rrktrix"}
+{"time":"2025-03-16T01:09:29.50771+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T01:13:14.621346+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T01:13:14.627742+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T01:13:15.637426+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.350982209,"progress":"1.2KB/1.2KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.350940667,"progress":"245B/245B"},{"desc":"uploading config.yaml","runtime_seconds":0.019577708,"progress":"1.1KB/1.1KB"}],"total_operations":3}}
+{"time":"2025-03-16T01:13:16.621759+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T01:13:17.945719+05:30","level":"INFO","msg":"stream: closing","id":"5rrktrix"}
+{"time":"2025-03-16T01:13:17.945874+05:30","level":"INFO","msg":"sender: closed","stream_id":"5rrktrix"}
+{"time":"2025-03-16T01:13:17.945851+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"5rrktrix"}
+{"time":"2025-03-16T01:13:17.946083+05:30","level":"INFO","msg":"handler: closed","stream_id":"5rrktrix"}
+{"time":"2025-03-16T01:13:17.946352+05:30","level":"INFO","msg":"stream: closed","id":"5rrktrix"}
