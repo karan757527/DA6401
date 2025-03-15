@@ -1,0 +1,16 @@
+{"time":"2025-03-13T23:36:07.556161+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/karanagrawal/Desktop/Sem 2/DL/Assignment 1/wandb/run-20250313_233607-n955is8b/logs/debug-core.log"}
+{"time":"2025-03-13T23:36:07.874417+05:30","level":"INFO","msg":"created new stream","id":"n955is8b"}
+{"time":"2025-03-13T23:36:07.874482+05:30","level":"INFO","msg":"stream: started","id":"n955is8b"}
+{"time":"2025-03-13T23:36:07.874519+05:30","level":"INFO","msg":"handler: started","stream_id":"n955is8b"}
+{"time":"2025-03-13T23:36:07.874659+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"n955is8b"}
+{"time":"2025-03-13T23:36:07.874704+05:30","level":"INFO","msg":"sender: started","stream_id":"n955is8b"}
+{"time":"2025-03-13T23:36:09.202334+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-13T23:36:10.795122+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-13T23:36:10.795515+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-13T23:36:11.804406+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/Sample_Images_0_7aa0fe39de39d05ad999.png","runtime_seconds":0.821423667,"progress":"63.2KB/63.2KB"},{"desc":"uploading output.log","runtime_seconds":0.669036584},{"desc":"uploading wandb-summary.json","runtime_seconds":0.669010084,"progress":"319B/319B"},{"desc":"uploading wandb-metadata.json","runtime_seconds":0.486112375,"progress":"1.0KB/1.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.144750541,"progress":"602B/602B"}],"total_operations":5}}
+{"time":"2025-03-13T23:36:12.439799+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-13T23:36:13.804117+05:30","level":"INFO","msg":"stream: closing","id":"n955is8b"}
+{"time":"2025-03-13T23:36:13.804248+05:30","level":"INFO","msg":"handler: closed","stream_id":"n955is8b"}
+{"time":"2025-03-13T23:36:13.804248+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"n955is8b"}
+{"time":"2025-03-13T23:36:13.804275+05:30","level":"INFO","msg":"sender: closed","stream_id":"n955is8b"}
+{"time":"2025-03-13T23:36:13.804402+05:30","level":"INFO","msg":"stream: closed","id":"n955is8b"}
