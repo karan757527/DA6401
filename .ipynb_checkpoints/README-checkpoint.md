@@ -82,22 +82,14 @@ DA6401/
 ├── requirements.txt              # Dependencies required to run the project
 ├── wandb_key.txt                 # API key for Weights & Biases (should be kept secret)
 ├── README.md                     # Documentation for the repository
-
-# Question-wise scripts
 ├── questions/                    # Contains independent scripts for each question
-
-# Weights & Biases Reports & Logs
 ├── wandb/                        # Logs and output files from wandb training runs
-
-# Report and documentation
 ├── report_wandb/                 # Folder containing detailed wandb reports
 │   ├── charts/                   # Charts and visualizations from training
 │   ├── Report.pdf                # Report in PDF Format
 │   ├── images/                   # Images and graphs from the assignment
 │   ├── README.md                 # Additional README for LaTeX report-related details
 │   └── report.tex                # LaTeX report file
-
-# logs and output
 └── __pycache__/                   # Compiled Python files (auto-generated)
 ```
 
@@ -200,5 +192,3 @@ python train.py -wp DA6401_A1 -we your_entity -d fashion_mnist -o rmsprop -lr 0.
 *I, Karan Agrawal, affirm that this work is my own and complies with academic integrity standards.*
 
 ---
-
-```
