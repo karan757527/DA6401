@@ -2,10 +2,10 @@
 # DA6401 - Deep Learning Assignment 1
 
 
-[![WandB](https://img.shields.io/badge/Weights_&_Biases-FFCC33?logo=WeightsAndBiases&logoColor=black)](https://wandb.ai/cs24m021-iit-madras/DA6401_DL_Assignment1/reports/DA6401-Assignment-1--VmlldzoxMTc4Mzg1Mw)
+[![WandB](https://img.shields.io/badge/Weights_&_Biases-FFCC33?logo=WeightsAndBiases&logoColor=black)](https://api.wandb.ai/links/cs24m021-iit-madras/9kmya6xn)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/karan757527/DA6401)
 
-A **NumPy-based Feedforward Neural Network** implementation for Fashion-MNIST and MNIST classification, with hyperparameter optimization via **Weights & Biases (WandB)**. Full experimental report available on [WandB Report](https://wandb.ai/cs24m021-iit-madras/DA6401_DL_Assignment1/reports/DA6401-Assignment-1--VmlldzoxMTc4Mzg1Mw).
+A **NumPy-based Feedforward Neural Network** implementation for Fashion-MNIST and MNIST classification, with hyperparameter optimization via **Weights & Biases (WandB)**. Full experimental report available on [WandB Report](https://api.wandb.ai/links/cs24m021-iit-madras/9kmya6xn).
 
 ---
 
@@ -173,7 +173,7 @@ python train.py \
 python train.py -wp DA6401_A1 -we your_entity -d fashion_mnist -o rmsprop -lr 0.0001 -w_i Xavier -nhl 4 -sz 128 -a ReLU
 ```
 
-> For MNIST experiments, add `-d mnist`. See [report](https://wandb.ai/cs24m021-iit-madras/DA6401_DL_Assignment1/reports/DA6401-Assignment-1--VmlldzoxMTc4Mzg1Mw) for optimal configurations.
+> For MNIST experiments, add `-d mnist`. See [report](https://api.wandb.ai/links/cs24m021-iit-madras/9kmya6xn) for optimal configurations.
 
 ---
 
