@@ -3,7 +3,7 @@
 
 
 [![WandB](https://img.shields.io/badge/Weights_&_Biases-FFCC33?logo=WeightsAndBiases&logoColor=black)](https://api.wandb.ai/links/cs24m021-iit-madras/9kmya6xn)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/karan757527/DA6401)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/karan757527/DA6401_Assignment1)
 
 A **NumPy-based Feedforward Neural Network** implementation for Fashion-MNIST and MNIST classification, with hyperparameter optimization via **Weights & Biases (WandB)**. Full experimental report available on [WandB Report](https://api.wandb.ai/links/cs24m021-iit-madras/9kmya6xn).
 
@@ -100,7 +100,7 @@ DA6401/
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/karan757527/DA6401.git
+   git clone https://github.com/karan757527/DA6401_Assignment1.git
    cd DA6401
    ```
 
