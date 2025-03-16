@@ -28,7 +28,7 @@ Download the fashion-MNIST dataset and plot 1 sample image for each class as sho
 \section{Question 2 (10 Marks)}
 Implement a feedforward neural network which takes images from the fashion-mnist data as input and outputs a probability distribution over the 10 classes.
 Your code should be flexible such that it is easy to change the number of hidden layers and the number of neurons in each hidden layer.
-\textbf{Code is on Github, click }\href{https://github.com/karan757527/DA6401/blob/main/Question_Wise/Question2.py}{\textbf{here}}\textbf{.}
+\textbf{Code is on Github, click }\href{https://github.com/karan757527/DA6401_Assignment1/blob/main/questions/Question2.py}{\textbf{here}}\textbf{.}
 
 \section{Question 3 (24 Marks)}
 Implement the backpropagation algorithm with support for the following optimisation functions 
@@ -40,7 +40,7 @@ adam
 nadam
 (12 marks for the backpropagation framework and 2 marks for each of the optimisation algorithms above)
 We will check the code for implementation and ease of use (e.g., how easy it is to add a new optimisation algorithm such as Eve). Note that the code should be flexible enough to work with different batch sizes.
-\textbf{Code is on Github, click }\href{https://github.com/karan757527/DA6401/blob/main/Question_Wise/Question3.py}{\textbf{here}}\textbf{.}
+\textbf{Code is on Github, click }\href{https://github.com/karan757527/DA6401_Assignment1/blob/main/questions/Question3.py}{\textbf{here}}\textbf{.}
 
 \section{Question 4 (10 Marks)}
 Use the sweep functionality provided by wandb to find the best values for the hyperparameters listed below. Use the standard train/test split of fashion_mnist (use (X_train, y_train), (X_test, y_test) = fashion_mnist.load_data()).  Keep 10% of the training data aside as validation data for this hyperparameter search. Here are some suggestions for different values to try for hyperparameters. As you can quickly see that this leads to an exponential number of combinations. You will have to think about strategies to do this hyperparameter search efficiently. Check out the options provided by wandb.sweep and write down what strategy you chose and why.
@@ -114,8 +114,8 @@ I did similar experiments with Mean Squared Error (MSE) loss, and the best test 
 Also, it can be compared from the two below plots that, models trained with Cross Entropy tend to reach and maintain higher accuracy levels more consistently. The MSE-based models exhibit more fluctuation, with a noticeable portion of lower accuracy results. This suggests that Cross Entropy might be a better loss function choice for optimizing test accuracy in this scenario.
 \section{Question 9 (10 Marks)}
 Paste a link to your github code for this assignment
-\textbf{GitHub Repository: }\href{https://github.com/karan757527/DA6401}{https://github.com/karan757527/DA6401}
-\textbf{Wandb Report Link: }\href{https://wandb.ai/cs24m021-iit-madras/DA6401_DL_Assignment1/reports/DA6401-Assignment-1--VmlldzoxMTc4Mzg1Mw/edit?draftId=VmlldzoxMTc5OTY4MA==}{https://wandb.ai/cs24m021-iit-madras/DA6401_DL_Assignment1/reports/DA6401-Assignment-1--VmlldzoxMTc4Mzg1Mw}
+\textbf{GitHub Repository: }\href{https://github.com/karan757527/DA6401_Assignment1/tree/main}{https://github.com/karan757527/DA6401_Assignment1/tree/main}
+\href{https://api.wandb.ai/links/cs24m021-iit-madras/9kmya6xn}{\textbf{Wandb Report Link: }https://wandb.ai/cs24m021-iit-madras/DA6401_DL_Assignment1/reports/DA6401-Assignment-1--VmlldzoxMTc4Mzg1Mw}
 \section{Question 10 (10 Marks)}
 Based on your learnings above, give me 3 recommendations for what would work for the MNIST dataset (not Fashion-MNIST). Just to be clear, I am asking you to take your learnings based on extensive experimentation with one dataset and see if these learnings help on another dataset. If I give you a budget of running only 3 hyperparameter configurations as opposed to the large number of experiments you have run above then which 3 would you use and why. Report the accuracies that you obtain using these 3 configurations. 
 I first tried out the best configuration I got for Fashion-MNIST, i.e. :	•	Optimizer: RMSprop
@@ -140,7 +140,7 @@ python train.py --wandb_entity myname --wandb_project myprojectname
 
 <br>\textbf{Please set the default hyperparameters to the values that give you your best validation accuracy.} (Hint: Refer to the Wandb sweeps conducted.)
 You may also add additional arguments with appropriate default values.
-\textbf{Uploaded on GitHub, click }\href{https://github.com/karan757527/DA6401/blob/main/train.py}{\textbf{here}}\textbf{.}
+\textbf{Uploaded on GitHub, click }\href{https://github.com/karan757527/DA6401_Assignment1/blob/main/train.py}{\textbf{here}}\textbf{.}
 \section{Self Declaration}
 I, \textbf{Karan Agrawal}, swear on my honour that I have written the code and the report by myself and have not copied it from the internet or other students.
 
