@@ -71,7 +71,7 @@ graph TD
 ## Repository Structure
 
 ```
-DA6401/
+DA6401_Assignment1/
 ├── assignment_notebook.ipynb     # Jupyter notebook covering all questions
 ├── train.py                      # CLI script for model training
 ├── neural_network.py             # Core neural network class (forward & backward pass)
@@ -101,7 +101,7 @@ DA6401/
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/karan757527/DA6401_Assignment1.git
-   cd DA6401
+   cd DA6401_Assignment1
    ```
 
 2. **Install Dependencies**:
@@ -131,20 +131,21 @@ Use `train.py` to train models with custom hyperparameters. Below is the full li
 | `-we`, `--wandb_entity` | WandB entity name | `cs24m021-iit-madras` | String |
 | `-d`, `--dataset` | Dataset | `fashion_mnist` | `["mnist", "fashion_mnist"]` |
 | `-e`, `--epochs` | Training epochs | `10` | Integer |
-| `-b`, `--batch_size` | Batch size | `64` | Integer |
+| `-b`, `--batch_size` | Batch size | `16` | Integer |
 | `-l`, `--loss` | Loss function | `cross_entropy` | `["mean_squared_error", "cross_entropy"]` |
-| `-o`, `--optimizer` | Optimizer | `sgd` | `["sgd", "momentum", "nag", "rmsprop", "adam", "nadam"]` |
-| `-lr`, `--learning_rate` | Learning rate | `0.1` | Float |
-| `-m`, `--momentum` | Momentum (for Momentum/NAG) | `0.5` | Float |
-| `-beta`, `--beta` | Beta (RMSprop) | `0.5` | Float |
-| `-beta1`, `--beta1` | Beta1 (Adam/Nadam) | `0.5` | Float |
-| `-beta2`, `--beta2` | Beta2 (Adam/Nadam) | `0.5` | Float |
+| `-o`, `--optimizer` | Optimizer | `rmsprop` | `["sgd", "momentum", "nag", "rmsprop", "adam", "nadam"]` |
+| `-lr`, `--learning_rate` | Learning rate | `0.0001` | Float |
+| `-m`, `--momentum` | Momentum (for Momentum/NAG) | `0.9` | Float |
+| `-beta`, `--beta` | Beta (RMSprop) | `0.9` | Float |
+| `-beta1`, `--beta1` | Beta1 (Adam/Nadam) | `0.9` | Float |
+| `-beta2`, `--beta2` | Beta2 (Adam/Nadam) | `0.999` | Float |
 | `-eps`, `--epsilon` | Numerical stability term | `0.000001` | Float |
-| `-w_d`, `--weight_decay` | Weight decay (L2) | `0.0` | Float |
-| `-w_i`, `--weight_init` | Weight initialization | `random` | `["random", "Xavier"]` |
-| `-nhl`, `--num_layers` | Number of hidden layers | `1` | Integer |
-| `-sz`, `--hidden_size` | Neurons per hidden layer | `4` | Integer |
-| `-a`, `--activation` | Activation function | `sigmoid` | `["identity", "sigmoid", "tanh", "ReLU"]` |
+| `-w_d`, `--weight_decay` | Weight decay (L2) | `0.0005` | Float |
+| `-w_i`, `--weight_init` | Weight initialization | `Xavier` | `["random", "Xavier"]` |
+| `-nhl`, `--num_layers` | Number of hidden layers | `4` | Integer |
+| `-sz`, `--hidden_size` | Neurons per hidden layer | `128` | Integer |
+| `-a`, `--activation` | Activation function | `ReLU` | `["identity", "sigmoid", "tanh", "ReLU"]` |
+
 
 ---
 
